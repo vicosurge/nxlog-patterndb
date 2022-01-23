@@ -1,0 +1,760 @@
+
+[32;1mId          : [0m1
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="FileVersion" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Description" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Product" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Company" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="OriginalFileName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="CommandLine" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="CurrentDirectory" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="User" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="LogonGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="LogonId" inType="win:HexInt64" outType="win:HexInt64"/>
+[32;1m              [0m  <data name="TerminalSessionId" inType="win:UInt32" outType="xs:unsignedInt"/>
+[32;1m              [0m  <data name="IntegrityLevel" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Hashes" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ParentProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ParentProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="ParentImage" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ParentCommandLine" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mProcess Create:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mFileVersion: %6
+[32;1m              [0mDescription: %7
+[32;1m              [0mProduct: %8
+[32;1m              [0mCompany: %9
+[32;1m              [0mOriginalFileName: %10
+[32;1m              [0mCommandLine: %11
+[32;1m              [0mCurrentDirectory: %12
+[32;1m              [0mUser: %13
+[32;1m              [0mLogonGuid: %14
+[32;1m              [0mLogonId: %15
+[32;1m              [0mTerminalSessionId: %16
+[32;1m              [0mIntegrityLevel: %17
+[32;1m              [0mHashes: %18
+[32;1m              [0mParentProcessGuid: %19
+[32;1m              [0mParentProcessId: %20
+[32;1m              [0mParentImage: %21
+[32;1m              [0mParentCommandLine: %22
+
+[32;1mId          : [0m2
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetFilename" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="CreationUtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="PreviousCreationUtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mFile creation time changed:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mTargetFilename: %6
+[32;1m              [0mCreationUtcTime: %7
+[32;1m              [0mPreviousCreationUtcTime: %8
+
+[32;1mId          : [0m3
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="User" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Protocol" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Initiated" inType="win:Boolean" outType="xs:boolean"/>
+[32;1m              [0m  <data name="SourceIsIpv6" inType="win:Boolean" outType="xs:boolean"/>
+[32;1m              [0m  <data name="SourceIp" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SourceHostname" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SourcePort" inType="win:UInt16" outType="xs:unsignedShort"/>
+[32;1m              [0m  <data name="SourcePortName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="DestinationIsIpv6" inType="win:Boolean" outType="xs:boolean"/>
+[32;1m              [0m  <data name="DestinationIp" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="DestinationHostname" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="DestinationPort" inType="win:UInt16" outType="xs:unsignedShort"/>
+[32;1m              [0m  <data name="DestinationPortName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mNetwork connection detected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mUser: %6
+[32;1m              [0mProtocol: %7
+[32;1m              [0mInitiated: %8
+[32;1m              [0mSourceIsIpv6: %9
+[32;1m              [0mSourceIp: %10
+[32;1m              [0mSourceHostname: %11
+[32;1m              [0mSourcePort: %12
+[32;1m              [0mSourcePortName: %13
+[32;1m              [0mDestinationIsIpv6: %14
+[32;1m              [0mDestinationIp: %15
+[32;1m              [0mDestinationHostname: %16
+[32;1m              [0mDestinationPort: %17
+[32;1m              [0mDestinationPortName: %18
+
+[32;1mId          : [0m4
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="State" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Version" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SchemaVersion" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mSysmon service state changed:
+[32;1m              [0mUtcTime: %1
+[32;1m              [0mState: %2
+[32;1m              [0mVersion: %3
+[32;1m              [0mSchemaVersion: %4
+
+[32;1mId          : [0m5
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mProcess terminated:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+
+[32;1mId          : [0m6
+[32;1mVersion     : [0m4
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ImageLoaded" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Hashes" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Signed" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Signature" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SignatureStatus" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mDriver loaded:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mImageLoaded: %3
+[32;1m              [0mHashes: %4
+[32;1m              [0mSigned: %5
+[32;1m              [0mSignature: %6
+[32;1m              [0mSignatureStatus: %7
+
+[32;1mId          : [0m7
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ImageLoaded" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="FileVersion" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Description" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Product" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Company" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="OriginalFileName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Hashes" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Signed" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Signature" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SignatureStatus" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mImage loaded:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mImageLoaded: %6
+[32;1m              [0mFileVersion: %7
+[32;1m              [0mDescription: %8
+[32;1m              [0mProduct: %9
+[32;1m              [0mCompany: %10
+[32;1m              [0mOriginalFileName: %11
+[32;1m              [0mHashes: %12
+[32;1m              [0mSigned: %13
+[32;1m              [0mSignature: %14
+[32;1m              [0mSignatureStatus: %15
+
+[32;1mId          : [0m8
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SourceProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="SourceProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="SourceImage" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="TargetProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="TargetImage" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="NewThreadId" inType="win:UInt32" outType="xs:unsignedInt"/>
+[32;1m              [0m  <data name="StartAddress" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="StartModule" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="StartFunction" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mCreateRemoteThread detected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mSourceProcessGuid: %3
+[32;1m              [0mSourceProcessId: %4
+[32;1m              [0mSourceImage: %5
+[32;1m              [0mTargetProcessGuid: %6
+[32;1m              [0mTargetProcessId: %7
+[32;1m              [0mTargetImage: %8
+[32;1m              [0mNewThreadId: %9
+[32;1m              [0mStartAddress: %10
+[32;1m              [0mStartModule: %11
+[32;1m              [0mStartFunction: %12
+
+[32;1mId          : [0m9
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Device" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mRawAccessRead detected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mDevice: %6
+
+[32;1mId          : [0m10
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="SourceProcessGUID" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="SourceProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="SourceThreadId" inType="win:UInt32" outType="xs:unsignedInt"/>
+[32;1m              [0m  <data name="SourceImage" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetProcessGUID" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="TargetProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="TargetImage" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="GrantedAccess" inType="win:HexInt32" outType="win:HexInt32"/>
+[32;1m              [0m  <data name="CallTrace" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mProcess accessed:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mSourceProcessGUID: %3
+[32;1m              [0mSourceProcessId: %4
+[32;1m              [0mSourceThreadId: %5
+[32;1m              [0mSourceImage: %6
+[32;1m              [0mTargetProcessGUID: %7
+[32;1m              [0mTargetProcessId: %8
+[32;1m              [0mTargetImage: %9
+[32;1m              [0mGrantedAccess: %10
+[32;1m              [0mCallTrace: %11
+
+[32;1mId          : [0m11
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetFilename" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="CreationUtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mFile created:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mTargetFilename: %6
+[32;1m              [0mCreationUtcTime: %7
+
+[32;1mId          : [0m12
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetObject" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mRegistry object added or deleted:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mProcessGuid: %4
+[32;1m              [0mProcessId: %5
+[32;1m              [0mImage: %6
+[32;1m              [0mTargetObject: %7
+
+[32;1mId          : [0m13
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetObject" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Details" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mRegistry value set:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mProcessGuid: %4
+[32;1m              [0mProcessId: %5
+[32;1m              [0mImage: %6
+[32;1m              [0mTargetObject: %7
+[32;1m              [0mDetails: %8
+
+[32;1mId          : [0m14
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetObject" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="NewName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mRegistry object renamed:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mProcessGuid: %4
+[32;1m              [0mProcessId: %5
+[32;1m              [0mImage: %6
+[32;1m              [0mTargetObject: %7
+[32;1m              [0mNewName: %8
+
+[32;1mId          : [0m15
+[32;1mVersion     : [0m2
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetFilename" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="CreationUtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Hash" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Contents" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mFile stream created:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mTargetFilename: %6
+[32;1m              [0mCreationUtcTime: %7
+[32;1m              [0mHash: %8
+[32;1m              [0mContents: %9
+
+[32;1mId          : [0m16
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Configuration" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ConfigurationFileHash" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mSysmon config state changed:
+[32;1m              [0mUtcTime: %1
+[32;1m              [0mConfiguration: %2
+[32;1m              [0mConfigurationFileHash: %3
+
+[32;1mId          : [0m17
+[32;1mVersion     : [0m1
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="PipeName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mPipe Created:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mProcessGuid: %4
+[32;1m              [0mProcessId: %5
+[32;1m              [0mPipeName: %6
+[32;1m              [0mImage: %7
+
+[32;1mId          : [0m18
+[32;1mVersion     : [0m1
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="PipeName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mPipe Connected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mProcessGuid: %4
+[32;1m              [0mProcessId: %5
+[32;1m              [0mPipeName: %6
+[32;1m              [0mImage: %7
+
+[32;1mId          : [0m19
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Operation" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="User" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventNamespace" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Name" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Query" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mWmiEventFilter activity detected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mOperation: %4
+[32;1m              [0mUser: %5
+[32;1m              [0mEventNamespace: %6
+[32;1m              [0mName: %7
+[32;1m              [0mQuery: %8
+
+[32;1mId          : [0m20
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Operation" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="User" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Name" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Type" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Destination" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mWmiEventConsumer activity detected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mOperation: %4
+[32;1m              [0mUser: %5
+[32;1m              [0mName: %6
+[32;1m              [0mType: %7
+[32;1m              [0mDestination: %8
+
+[32;1mId          : [0m21
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="EventType" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Operation" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="User" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Consumer" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Filter" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mWmiEventConsumerToFilter activity detected:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mEventType: %2
+[32;1m              [0mUtcTime: %3
+[32;1m              [0mOperation: %4
+[32;1m              [0mUser: %5
+[32;1m              [0mConsumer: %6
+[32;1m              [0mFilter: %7
+
+[32;1mId          : [0m22
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="QueryName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="QueryStatus" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="QueryResults" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mDns query:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mQueryName: %5
+[32;1m              [0mQueryStatus: %6
+[32;1m              [0mQueryResults: %7
+[32;1m              [0mImage: %8
+
+[32;1mId          : [0m23
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="User" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="TargetFilename" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Hashes" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="IsExecutable" inType="win:Boolean" outType="xs:boolean"/>
+[32;1m              [0m  <data name="Archived" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mFile Delete:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mUser: %5
+[32;1m              [0mImage: %6
+[32;1m              [0mTargetFilename: %7
+[32;1m              [0mHashes: %8
+[32;1m              [0mIsExecutable: %9
+[32;1m              [0mArchived: %10
+
+[32;1mId          : [0m24
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Session" inType="win:UInt32" outType="xs:unsignedInt"/>
+[32;1m              [0m  <data name="ClientInfo" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Hashes" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Archived" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mClipboard changed:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mSession: %6
+[32;1m              [0mClientInfo: %7
+[32;1m              [0mHashes: %8
+[32;1m              [0mArchived: %9
+
+[32;1mId          : [0m25
+[32;1mVersion     : [0m5
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="RuleName" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ProcessGuid" inType="win:GUID" outType="xs:GUID"/>
+[32;1m              [0m  <data name="ProcessId" inType="win:UInt32" outType="win:PID"/>
+[32;1m              [0m  <data name="Image" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Type" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mProcess Tampering:
+[32;1m              [0mRuleName: %1
+[32;1m              [0mUtcTime: %2
+[32;1m              [0mProcessGuid: %3
+[32;1m              [0mProcessId: %4
+[32;1m              [0mImage: %5
+[32;1m              [0mType: %6
+
+[32;1mId          : [0m255
+[32;1mVersion     : [0m3
+[32;1mLogLink     : [0mSystem.Diagnostics.Eventing.Reader.EventLogLink
+[32;1mLevel       : [0mSystem.Diagnostics.Eventing.Reader.EventLevel
+[32;1mOpcode      : [0mSystem.Diagnostics.Eventing.Reader.EventOpcode
+[32;1mTask        : [0mSystem.Diagnostics.Eventing.Reader.EventTask
+[32;1mKeywords    : [0m{}
+[32;1mTemplate    : [0m<template xmlns="http://schemas.microsoft.com/win/2004/08/events">
+[32;1m              [0m  <data name="UtcTime" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="ID" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m  <data name="Description" inType="win:UnicodeString" outType="xs:string"/>
+[32;1m              [0m</template>
+[32;1m              [0m
+[32;1mDescription : [0mError report:
+[32;1m              [0mUtcTime: %1
+[32;1m              [0mID: %2
+[32;1m              [0mDescription: %3
+
+

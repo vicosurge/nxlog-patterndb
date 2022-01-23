@@ -1,0 +1,886 @@
+[
+  {
+    "Id": 1,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_CREATE_PROCESS",
+      "Value": 1,
+      "DisplayName": "Process Create (rule: ProcessCreate)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000001"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"FileVersion\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Description\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Product\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Company\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"OriginalFileName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"CommandLine\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"CurrentDirectory\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"User\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"LogonGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"LogonId\" inType=\"win:HexInt64\" outType=\"win:HexInt64\"/>\r\n  <data name=\"TerminalSessionId\" inType=\"win:UInt32\" outType=\"xs:unsignedInt\"/>\r\n  <data name=\"IntegrityLevel\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Hashes\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ParentProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ParentProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"ParentImage\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ParentCommandLine\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Process Create:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nFileVersion: %6\r\nDescription: %7\r\nProduct: %8\r\nCompany: %9\r\nOriginalFileName: %10\r\nCommandLine: %11\r\nCurrentDirectory: %12\r\nUser: %13\r\nLogonGuid: %14\r\nLogonId: %15\r\nTerminalSessionId: %16\r\nIntegrityLevel: %17\r\nHashes: %18\r\nParentProcessGuid: %19\r\nParentProcessId: %20\r\nParentImage: %21\r\nParentCommandLine: %22"
+  },
+  {
+    "Id": 2,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_FILE_TIME",
+      "Value": 2,
+      "DisplayName": "File creation time changed (rule: FileCreateTime)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000002"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetFilename\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"CreationUtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"PreviousCreationUtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "File creation time changed:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nTargetFilename: %6\r\nCreationUtcTime: %7\r\nPreviousCreationUtcTime: %8"
+  },
+  {
+    "Id": 3,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_NETWORK_CONNECT",
+      "Value": 3,
+      "DisplayName": "Network connection detected (rule: NetworkConnect)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000003"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"User\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Protocol\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Initiated\" inType=\"win:Boolean\" outType=\"xs:boolean\"/>\r\n  <data name=\"SourceIsIpv6\" inType=\"win:Boolean\" outType=\"xs:boolean\"/>\r\n  <data name=\"SourceIp\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SourceHostname\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SourcePort\" inType=\"win:UInt16\" outType=\"xs:unsignedShort\"/>\r\n  <data name=\"SourcePortName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"DestinationIsIpv6\" inType=\"win:Boolean\" outType=\"xs:boolean\"/>\r\n  <data name=\"DestinationIp\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"DestinationHostname\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"DestinationPort\" inType=\"win:UInt16\" outType=\"xs:unsignedShort\"/>\r\n  <data name=\"DestinationPortName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Network connection detected:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nUser: %6\r\nProtocol: %7\r\nInitiated: %8\r\nSourceIsIpv6: %9\r\nSourceIp: %10\r\nSourceHostname: %11\r\nSourcePort: %12\r\nSourcePortName: %13\r\nDestinationIsIpv6: %14\r\nDestinationIp: %15\r\nDestinationHostname: %16\r\nDestinationPort: %17\r\nDestinationPortName: %18"
+  },
+  {
+    "Id": 4,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_SERVICE_STATE_CHANGE",
+      "Value": 4,
+      "DisplayName": "Sysmon service state changed",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000004"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"State\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Version\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SchemaVersion\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Sysmon service state changed:\r\nUtcTime: %1\r\nState: %2\r\nVersion: %3\r\nSchemaVersion: %4"
+  },
+  {
+    "Id": 5,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_PROCESS_TERMINATE",
+      "Value": 5,
+      "DisplayName": "Process terminated (rule: ProcessTerminate)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000005"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Process terminated:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5"
+  },
+  {
+    "Id": 6,
+    "Version": 4,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_DRIVER_LOAD",
+      "Value": 6,
+      "DisplayName": "Driver loaded (rule: DriverLoad)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000006"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ImageLoaded\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Hashes\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Signed\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Signature\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SignatureStatus\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Driver loaded:\r\nRuleName: %1\r\nUtcTime: %2\r\nImageLoaded: %3\r\nHashes: %4\r\nSigned: %5\r\nSignature: %6\r\nSignatureStatus: %7"
+  },
+  {
+    "Id": 7,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_IMAGE_LOAD",
+      "Value": 7,
+      "DisplayName": "Image loaded (rule: ImageLoad)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000007"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ImageLoaded\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"FileVersion\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Description\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Product\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Company\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"OriginalFileName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Hashes\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Signed\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Signature\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SignatureStatus\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Image loaded:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nImageLoaded: %6\r\nFileVersion: %7\r\nDescription: %8\r\nProduct: %9\r\nCompany: %10\r\nOriginalFileName: %11\r\nHashes: %12\r\nSigned: %13\r\nSignature: %14\r\nSignatureStatus: %15"
+  },
+  {
+    "Id": 8,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_CREATE_REMOTE_THREAD",
+      "Value": 8,
+      "DisplayName": "CreateRemoteThread detected (rule: CreateRemoteThread)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000008"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SourceProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"SourceProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"SourceImage\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"TargetProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"TargetImage\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"NewThreadId\" inType=\"win:UInt32\" outType=\"xs:unsignedInt\"/>\r\n  <data name=\"StartAddress\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"StartModule\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"StartFunction\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "CreateRemoteThread detected:\r\nRuleName: %1\r\nUtcTime: %2\r\nSourceProcessGuid: %3\r\nSourceProcessId: %4\r\nSourceImage: %5\r\nTargetProcessGuid: %6\r\nTargetProcessId: %7\r\nTargetImage: %8\r\nNewThreadId: %9\r\nStartAddress: %10\r\nStartModule: %11\r\nStartFunction: %12"
+  },
+  {
+    "Id": 9,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_RAWACCESS_READ",
+      "Value": 9,
+      "DisplayName": "RawAccessRead detected (rule: RawAccessRead)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000009"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Device\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "RawAccessRead detected:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nDevice: %6"
+  },
+  {
+    "Id": 10,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_ACCESS_PROCESS",
+      "Value": 10,
+      "DisplayName": "Process accessed (rule: ProcessAccess)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee0000000a"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"SourceProcessGUID\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"SourceProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"SourceThreadId\" inType=\"win:UInt32\" outType=\"xs:unsignedInt\"/>\r\n  <data name=\"SourceImage\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetProcessGUID\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"TargetProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"TargetImage\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"GrantedAccess\" inType=\"win:HexInt32\" outType=\"win:HexInt32\"/>\r\n  <data name=\"CallTrace\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Process accessed:\r\nRuleName: %1\r\nUtcTime: %2\r\nSourceProcessGUID: %3\r\nSourceProcessId: %4\r\nSourceThreadId: %5\r\nSourceImage: %6\r\nTargetProcessGUID: %7\r\nTargetProcessId: %8\r\nTargetImage: %9\r\nGrantedAccess: %10\r\nCallTrace: %11"
+  },
+  {
+    "Id": 11,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_FILE_CREATE",
+      "Value": 11,
+      "DisplayName": "File created (rule: FileCreate)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee0000000b"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetFilename\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"CreationUtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "File created:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nTargetFilename: %6\r\nCreationUtcTime: %7"
+  },
+  {
+    "Id": 12,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_REG_KEY",
+      "Value": 12,
+      "DisplayName": "Registry object added or deleted (rule: RegistryEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee0000000c"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetObject\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Registry object added or deleted:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nProcessGuid: %4\r\nProcessId: %5\r\nImage: %6\r\nTargetObject: %7"
+  },
+  {
+    "Id": 13,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_REG_SETVALUE",
+      "Value": 13,
+      "DisplayName": "Registry value set (rule: RegistryEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee0000000d"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetObject\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Details\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Registry value set:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nProcessGuid: %4\r\nProcessId: %5\r\nImage: %6\r\nTargetObject: %7\r\nDetails: %8"
+  },
+  {
+    "Id": 14,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_REG_NAME",
+      "Value": 14,
+      "DisplayName": "Registry object renamed (rule: RegistryEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee0000000e"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetObject\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"NewName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Registry object renamed:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nProcessGuid: %4\r\nProcessId: %5\r\nImage: %6\r\nTargetObject: %7\r\nNewName: %8"
+  },
+  {
+    "Id": 15,
+    "Version": 2,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_FILE_CREATE_STREAM_HASH",
+      "Value": 15,
+      "DisplayName": "File stream created (rule: FileCreateStreamHash)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee0000000f"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetFilename\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"CreationUtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Hash\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Contents\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "File stream created:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nTargetFilename: %6\r\nCreationUtcTime: %7\r\nHash: %8\r\nContents: %9"
+  },
+  {
+    "Id": 16,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_SERVICE_CONFIGURATION_CHANGE",
+      "Value": 16,
+      "DisplayName": "Sysmon config state changed",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000010"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Configuration\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ConfigurationFileHash\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Sysmon config state changed:\r\nUtcTime: %1\r\nConfiguration: %2\r\nConfigurationFileHash: %3"
+  },
+  {
+    "Id": 17,
+    "Version": 1,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_CREATE_NAMEDPIPE",
+      "Value": 17,
+      "DisplayName": "Pipe Created (rule: PipeEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000011"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"PipeName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Pipe Created:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nProcessGuid: %4\r\nProcessId: %5\r\nPipeName: %6\r\nImage: %7"
+  },
+  {
+    "Id": 18,
+    "Version": 1,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_CONNECT_NAMEDPIPE",
+      "Value": 18,
+      "DisplayName": "Pipe Connected (rule: PipeEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000012"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"PipeName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Pipe Connected:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nProcessGuid: %4\r\nProcessId: %5\r\nPipeName: %6\r\nImage: %7"
+  },
+  {
+    "Id": 19,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_WMI_FILTER",
+      "Value": 19,
+      "DisplayName": "WmiEventFilter activity detected (rule: WmiEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000013"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Operation\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"User\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventNamespace\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Name\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Query\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "WmiEventFilter activity detected:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nOperation: %4\r\nUser: %5\r\nEventNamespace: %6\r\nName: %7\r\nQuery: %8"
+  },
+  {
+    "Id": 20,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_WMI_CONSUMER",
+      "Value": 20,
+      "DisplayName": "WmiEventConsumer activity detected (rule: WmiEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000014"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Operation\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"User\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Name\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Type\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Destination\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "WmiEventConsumer activity detected:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nOperation: %4\r\nUser: %5\r\nName: %6\r\nType: %7\r\nDestination: %8"
+  },
+  {
+    "Id": 21,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_WMI_BINDING",
+      "Value": 21,
+      "DisplayName": "WmiEventConsumerToFilter activity detected (rule: WmiEvent)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000015"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"EventType\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Operation\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"User\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Consumer\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Filter\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "WmiEventConsumerToFilter activity detected:\r\nRuleName: %1\r\nEventType: %2\r\nUtcTime: %3\r\nOperation: %4\r\nUser: %5\r\nConsumer: %6\r\nFilter: %7"
+  },
+  {
+    "Id": 22,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_DNS_QUERY",
+      "Value": 22,
+      "DisplayName": "Dns query (rule: DnsQuery)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000016"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"QueryName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"QueryStatus\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"QueryResults\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Dns query:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nQueryName: %5\r\nQueryStatus: %6\r\nQueryResults: %7\r\nImage: %8"
+  },
+  {
+    "Id": 23,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_FILE_DELETE",
+      "Value": 23,
+      "DisplayName": "File Delete (rule: FileDelete)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000017"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"User\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"TargetFilename\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Hashes\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"IsExecutable\" inType=\"win:Boolean\" outType=\"xs:boolean\"/>\r\n  <data name=\"Archived\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "File Delete:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nUser: %5\r\nImage: %6\r\nTargetFilename: %7\r\nHashes: %8\r\nIsExecutable: %9\r\nArchived: %10"
+  },
+  {
+    "Id": 24,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_CLIPBOARD",
+      "Value": 24,
+      "DisplayName": "Clipboard changed (rule: ClipboardChange)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000018"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Session\" inType=\"win:UInt32\" outType=\"xs:unsignedInt\"/>\r\n  <data name=\"ClientInfo\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Hashes\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Archived\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Clipboard changed:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nSession: %6\r\nClientInfo: %7\r\nHashes: %8\r\nArchived: %9"
+  },
+  {
+    "Id": 25,
+    "Version": 5,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Informational",
+      "Value": 4,
+      "DisplayName": "Information"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_PROCESS_IMAGE_TAMPERING",
+      "Value": 25,
+      "DisplayName": "Process Tampering (rule: ProcessTampering)",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee00000019"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"RuleName\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ProcessGuid\" inType=\"win:GUID\" outType=\"xs:GUID\"/>\r\n  <data name=\"ProcessId\" inType=\"win:UInt32\" outType=\"win:PID\"/>\r\n  <data name=\"Image\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Type\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Process Tampering:\r\nRuleName: %1\r\nUtcTime: %2\r\nProcessGuid: %3\r\nProcessId: %4\r\nImage: %5\r\nType: %6"
+  },
+  {
+    "Id": 255,
+    "Version": 3,
+    "LogLink": {
+      "LogName": "Microsoft-Windows-Sysmon/Operational",
+      "IsImported": false,
+      "DisplayName": null
+    },
+    "Level": {
+      "Name": "win:Error",
+      "Value": 2,
+      "DisplayName": "Error"
+    },
+    "Opcode": {
+      "Name": "win:Info",
+      "Value": 0,
+      "DisplayName": "Info"
+    },
+    "Task": {
+      "Name": "SysmonTask-SYSMONEVENT_ERROR",
+      "Value": 255,
+      "DisplayName": "Error report",
+      "EventGuid": "c511ffb3-9fbf-45f5-a97b-9bee000000ff"
+    },
+    "Keywords": [
+      {
+        "Name": null,
+        "Value": -9223372036854775808,
+        "DisplayName": null
+      }
+    ],
+    "Template": "<template xmlns=\"http://schemas.microsoft.com/win/2004/08/events\">\r\n  <data name=\"UtcTime\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"ID\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n  <data name=\"Description\" inType=\"win:UnicodeString\" outType=\"xs:string\"/>\r\n</template>\r\n",
+    "Description": "Error report:\r\nUtcTime: %1\r\nID: %2\r\nDescription: %3"
+  }
+]

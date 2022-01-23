@@ -1,0 +1,1163 @@
+
+[32;1mName                                                                       LogLinks[0m
+[32;1m----                                                                       --------[0m
+PowerShell                                                                 {Windows PowerShell}
+Visual Studio                                                              {Visual Studio}
+Trust Service                                                              {Visual Studio}
+Xvdd                                                                       {System}
+Workstation                                                                {System}
+WMIxWDM                                                                    {System}
+WireGuard                                                                  {System}
+WinNat                                                                     {System}
+Windows Script Host                                                        {System}
+Windows Disk Diagnostic                                                    {System}
+Win32k                                                                     {System}
+wecsvc                                                                     {System}
+wdf01000                                                                   {System}
+WacomPen                                                                   {System}
+vwifimp                                                                    {System}
+VSTXRAID                                                                   {System}
+vsmraid                                                                    {System}
+vpcivsp                                                                    {System}
+vpci                                                                       {System}
+volmgr                                                                     {System}
+Virtual Disk Service                                                       {System}
+VfpExt                                                                     {System}
+VDS Virtual Disk Provider                                                  {System}
+VDS Dynamic Provider                                                       {System}
+VDS Basic Provider                                                         {System}
+VBoxUSBMon                                                                 {System}
+VBoxNetLwf                                                                 {System}
+usbvideo                                                                   {System}
+usbser                                                                     {System}
+usbehci                                                                    {System}
+usbaudio2                                                                  {System}
+UASPStor                                                                   {System}
+tunnel                                                                     {System}
+TCPMon                                                                     {System}
+Tcpip6                                                                     {System}
+Tcpip                                                                      {System}
+System                                                                     {System}
+stornvme                                                                   {System}
+storahci                                                                   {System}
+StillImage                                                                 {System}
+stexstor                                                                   {System}
+Srv                                                                        {System}
+spbcx                                                                      {System}
+spaceport                                                                  {System}
+SNMPTRAP                                                                   {System}
+SMSvcHost 4.0.0.0                                                          {System}
+SMSvcHost 3.0.0.0                                                          {System}
+SmartSAMD                                                                  {System}
+SiSRaid4                                                                   {System}
+SiSRaid2                                                                   {System}
+Server                                                                     {System}
+sermouse                                                                   {System}
+Serial                                                                     {System}
+sercx2                                                                     {System}
+sercx                                                                      {System}
+scmbus                                                                     {System}
+sbp2port                                                                   {System}
+RtlWlanu                                                                   {System}
+rt640x64                                                                   {System}
+rspndr                                                                     {System}
+rhproxy                                                                    {System}
+RFCOMM                                                                     {System}
+RemoteAccess                                                               {System}
+rdbss                                                                      {System}
+Rasman                                                                     {System}
+RasCfg                                                                     {System}
+RasAuto                                                                    {System}
+Processor                                                                  {System}
+PptpMiniport                                                               {System}
+Power                                                                      {System}
+PNPMEM                                                                     {System}
+pmem                                                                       {System}
+percsas3i                                                                  {System}
+percsas2i                                                                  {System}
+pcmcia                                                                     {System}
+partmgr                                                                    {System}
+Parport                                                                    {System}
+nvstor                                                                     {System}
+nvlddmkm                                                                   {System}
+nvdimm                                                                     {System}
+Ntfs                                                                       {System}
+Netlogon                                                                   {System}
+NetBT                                                                      {System}
+NetBIOS                                                                    {System}
+ndiswanlegacy                                                              {System}
+NdisWan                                                                    {System}
+NdisImPlatform                                                             {System}
+mvumis                                                                     {System}
+Mup                                                                        {System}
+MTConfig                                                                   {System}
+MSiSCSI                                                                    {System}
+mshidumdf                                                                  {System}
+MSDTC WS-AT Protocol                                                       {System}
+MSDTC Gateway                                                              {System}
+MsBridge                                                                   {System}
+mrxsmb                                                                     {System}
+mouhid                                                                     {System}
+mouclass                                                                   {System}
+mlx4_bus                                                                   {System}
+megasr                                                                     {System}
+megasas35i                                                                 {System}
+megasas2i                                                                  {System}
+megasas                                                                    {System}
+LSI_SSS                                                                    {System}
+LSI_SAS3i                                                                  {System}
+LSI_SAS2i                                                                  {System}
+LSI_SAS                                                                    {System}
+LmHosts                                                                    {System}
+lltdio                                                                     {System}
+Lfsvc                                                                      {System}
+kdnic                                                                      {System}
+kbdhid                                                                     {System}
+kbdclass                                                                   {System}
+ItSas35i                                                                   {System}
+iScsiPrt                                                                   {System}
+isapnp                                                                     {System}
+IPMIDRV                                                                    {System}
+intelppm                                                                   {System}
+ibbus                                                                      {System}
+iaStorV                                                                    {System}
+iaStorAVC                                                                  {System}
+i8042prt                                                                   {System}
+HpSAMD                                                                     {System}
+hidspi                                                                     {System}
+hidi2c                                                                     {System}
+HidBth                                                                     {System}
+hcmon                                                                      {System}
+googledrivefs3688                                                          {System}
+googledrivefs3525                                                          {System}
+FltMgr                                                                     {System}
+exFAT                                                                      {System}
+eventlog                                                                   {System}
+ebdrv                                                                      {System}
+Dnscache                                                                   {System}
+Dnsapi                                                                     {System}
+Display                                                                    {System}
+disk                                                                       {System}
+cht4vbd                                                                    {System}
+cht4iscsi                                                                  {System}
+cdrom                                                                      {System}
+cbfsconnect2017                                                            {System}
+BTHUSB                                                                     {System}
+BTHPORT                                                                    {System}
+BthMini                                                                    {System}
+BthLEEnum                                                                  {System}
+BthEnum                                                                    {System}
+beep                                                                       {System}
+BasicRender                                                                {System}
+b06bdrv                                                                    {System}
+atapi                                                                      {System}
+AsyncMac                                                                   {System}
+arcsas                                                                     {System}
+amdxata                                                                    {System}
+amdsbs                                                                     {System}
+amdsata                                                                    {System}
+AmdPPM                                                                     {System}
+amdkmdap                                                                   {System}
+amdkmdag                                                                   {System}
+AmdK8                                                                      {System}
+AFD                                                                        {System}
+ADP80XX                                                                    {System}
+ACPI                                                                       {System}
+3ware                                                                      {System}
+VSSAudit                                                                   {Security}
+TCP/IP                                                                     {Security}
+Spooler                                                                    {Security}
+ServiceModel 4.0.0.0                                                       {Security}
+ServiceModel 3.0.0.0                                                       {Security}
+Security Account Manager                                                   {Security}
+Security                                                                   {Security}
+SC Manager                                                                 {Security}
+LSA                                                                        {Security}
+DS                                                                         {Security}
+Microsoft Office 16 Alerts                                                 {OAlerts}
+WSH                                                                        {Application}
+Wow64 Emulation Layer                                                      {Application}
+WMI.NET Provider Extension                                                 {Application}
+Windows Error Reporting                                                    {Application}
+Windows Backup                                                             {Application}
+WerSvc                                                                     {Application}
+VSTO 4.0                                                                   {Application}
+VSSetup                                                                    {Application}
+VSS                                                                        {Application}
+VsJITDebugger                                                              {Application}
+VNC Viewer                                                                 {Application}
+VBRuntime                                                                  {Application}
+usbperf                                                                    {Application}
+TreeSizeFree                                                               {Application}
+TreeSize                                                                   {Application}
+TFTP Service                                                               {Application}
+System.ServiceModel 4.0.0.0                                                {Application}
+System.ServiceModel 3.0.0.0                                                {Application}
+System.Runtime.Serialization 4.0.0.0                                       {Application}
+System.Runtime.Serialization 3.0.0.0                                       {Application}
+System.IO.Log 4.0.0.0                                                      {Application}
+System.IO.Log 3.0.0.0                                                      {Application}
+System.IdentityModel 4.0.0.0                                               {Application}
+System.IdentityModel 3.0.0.0                                               {Application}
+System Restore                                                             {Application}
+Steam Client Service                                                       {Application}
+SPP                                                                        {Application}
+SpeechRuntime                                                              {Application}
+SolarWinds TFTP Server                                                     {Application}
+SideBySide                                                                 {Application}
+ServiceModel Audit 4.0.0.0                                                 {Application}
+ServiceModel Audit 3.0.0.0                                                 {Application}
+SecurityCenter                                                             {Application}
+SceSrv                                                                     {Application}
+SceCli                                                                     {Application}
+RasClient                                                                  {Application}
+Outlook                                                                    {Application}
+NVIDIA OpenGL Driver                                                       {Application}
+NSSM                                                                       {Application}
+MSSOAP                                                                     {Application}
+MsiInstaller                                                               {Application}
+Microsoft.Transactions.Bridge 4.0.0.0                                      {Application}
+Microsoft.Transactions.Bridge 3.0.0.0                                      {Application}
+Microsoft-Windows-IIS-IISManager                                           {Application}
+Microsoft-Windows-Defrag                                                   {Application}
+Microsoft Office 16                                                        {Application}
+Microsoft Fax                                                              {Application}
+LBTServ                                                                    {Application}
+Kiwi Syslog Server                                                         {Application}
+IIS Express                                                                {Application}
+HostableWebCore                                                            {Application}
+Handwriting Recognition                                                    {Application}
+GroupPolicy                                                                {Application}
+ESENT                                                                      {Application}
+edgeupdatem                                                                {Application}
+edgeupdate                                                                 {Application}
+Edge                                                                       {Application}
+Dwminit                                                                    {Application}
+DockerService                                                              {Application}
+DiskQuota                                                                  {Application}
+Desktop Window Manager                                                     {Application}
+DeliveryOptimization                                                       {Application}
+Chkdsk                                                                     {Application}
+cbfsconnect2017                                                            {System}
+CardSpace 4.0.0.0                                                          {Application}
+Bitvise Installer                                                          {Application}
+ATIeRecord                                                                 {Application}
+ASP.NET 4.0.30319.0                                                        {Application}
+ASP.NET 2.0.50727.0                                                        {Application}
+Application Hang                                                           {Application}
+Application Error                                                          {Application}
+Application                                                                {Application}
+.NET Runtime Optimization Service                                          {Application}
+.NET Runtime                                                               {Application}
+Microsoft-PerfTrack-MSHTML                                                 {Microsoft-PerfTrack-MSHTML/Diagnostic}
+Windows-ApplicationModel-Store-SDK                                         {Microsoft-Windows-Store/Operational}
+Microsoft-Windows-W3LOGSVC                                                 {System}
+Microsoft-Windows-Sdbus                                                    {Microsoft-Windows-Sdbus/Analytic, Microsoft-Windows-Sdbus/Debug}
+Microsoft-Windows-ProcessExitMonitor                                       {Application}
+Microsoft-Windows-IME-OEDCompiler                                          {Microsoft-Windows-IME-OEDCompiler/Analytic}
+Microsoft-Windows-DeviceSetupManager                                       {Microsoft-Windows-DeviceSetupManager/Operational, Microsoft-Windows-DeviceSetupManager/Admin, Microsoft-Windows-DeviceSetupManager/Debug, Microsoft-Windows-Devi…
+Microsoft-Windows-Search-ProfileNotify                                     {Application}
+Microsoft-Windows-Eventlog                                                 {System, Security, Setup, Microsoft-Windows-EventLog/Debug…}
+Microsoft-Windows-Containers-BindFlt                                       {Microsoft-Windows-Containers-BindFlt/Operational, Microsoft-Windows-Containers-BindFlt/Debug}
+Microsoft-Windows-NDF-HelperClassDiscovery                                 {Microsoft-Windows-NDF-HelperClassDiscovery/Debug}
+Microsoft-Windows-FirstUX-PerfInstrumentation                              {FirstUXPerf-Analytic}
+Microsoft-Windows-NetworkProfileTriggerProvider                            {}
+Microsoft-Windows-NetworkProfile                                           {Microsoft-Windows-NetworkProfile/Diagnostic, Microsoft-Windows-NetworkProfile/Operational}
+Microsoft-Windows-SystemSettingsHandlers                                   {Microsoft-Windows-SystemSettingsHandlers/Debug}
+Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging                    {Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging/Operational}
+Microsoft-Windows-UserDataAccess-UserDataService                           {}
+Microsoft-Windows-Security-Mitigations                                     {Microsoft-Windows-Security-Mitigations/KernelMode, Microsoft-Windows-Security-Mitigations/UserMode}
+Microsoft-Windows-Runtime-Graphics                                         {Microsoft-Windows-Runtime-Graphics/Analytic}
+Microsoft-Windows-RPC-FirewallManager                                      {}
+PowerShellCore                                                             {PowerShellCore/Operational, PowerShellCore/Analytic, PowerShellCore/Debug}
+Microsoft-Windows-DeliveryOptimization                                     {Application}
+Microsoft-Windows-PerfOS                                                   {Application}
+Microsoft-Windows-DeviceGuard                                              {Microsoft-Windows-DeviceGuard/Operational, Microsoft-Windows-DeviceGuard/Verbose}
+Microsoft-Windows-IME-TCCORE                                               {Microsoft-Windows-IME-TCCORE/Analytic}
+Microsoft-Windows-Shell-Shwebsvc                                           {Microsoft-Windows-Shell-Shwebsvc}
+Microsoft-Windows-OOBE-Machine-DUI                                         {Microsoft-Windows-OOBE-Machine-DUI/Diagnostic, Microsoft-Windows-OOBE-Machine-DUI/Operational}
+Microsoft-Windows-StorDiag                                                 {Microsoft-Windows-StorDiag/Operational, Microsoft-Windows-Storage-ClassPnP/Diagnose, Microsoft-Windows-Storage-ClassPnP/Debug, Microsoft-Windows-Storage-ClassPn…
+Microsoft-Windows-UserDataAccess-CallHistoryClient                         {}
+OfficeAirSpace                                                             {AirSpaceChannel}
+Microsoft-Windows-Kernel-Licensing-StartServiceTrigger                     {}
+Microsoft-Windows-Http-SQM-Provider                                        {}
+OfficeLoggingLiblet                                                        {General Logging}
+Microsoft-Windows-Threat-Intelligence                                      {Microsoft-Windows-Threat-Intelligence/Analytic}
+Microsoft-Windows-WWAN-MediaManager                                        {Microsoft-Windows-WWAN-MediaManager/Diagnostic}
+Microsoft-Windows-RPC-Events                                               {Application}
+Microsoft-Windows-SettingSync-OneDrive                                     {Microsoft-Windows-SettingSync-OneDrive/Operational, Microsoft-Windows-SettingSync-OneDrive/Debug, Microsoft-Windows-SettingSync-OneDrive/Analytic}
+Microsoft-Windows-MediaFoundation-Performance                              {MediaFoundationPerformance, Microsoft-Windows-MediaFoundation-Performance/SARStreamResource}
+Microsoft-Windows-VerifyHardwareSecurity                                   {Microsoft-Windows-VerifyHardwareSecurity/Operational, Microsoft-Windows-VerifyHardwareSecurity/Admin}
+Microsoft-Windows-WMP                                                      {WMPSyncEngine}
+Microsoft-Windows-FilterManager                                            {System}
+Microsoft-Windows-Dot3MM                                                   {Microsoft-Windows-Dot3MM/Diagnostic}
+Microsoft-Windows-Hyper-V-Guest-Drivers-Vmbus                              {Microsoft-Windows-Hyper-V-Guest-Drivers/Admin}
+Microsoft-Windows-MPRMSG                                                   {System}
+Microsoft-Windows-Diagnosis-PerfHost                                       {Microsoft-Windows-Diagnosis-Perfhost/Analytic}
+Microsoft-Windows-TriggerEmulatorProvider                                  {}
+Microsoft-Windows-DXGIDebug                                                {Microsoft-Windows-DXGIDebug/Logging}
+Microsoft-Windows-AppModel-Runtime                                         {Application, Microsoft-Windows-AppModel-Runtime/Analytic, Microsoft-Windows-AppModel-Runtime/Admin, Microsoft-Windows-AppModel-Runtime/Debug…}
+Microsoft-Windows-RemoteDesktopServices-SessionServices                    {Microsoft-Windows-RemoteDesktopServices-SessionServices/Operational}
+Microsoft-Windows-DeviceManagement-Pushrouter                              {Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational}
+Microsoft-Windows-CertificateServicesClient-AutoEnrollment                 {Application}
+Microsoft-Windows-AppReadiness                                             {Microsoft-Windows-AppReadiness/Admin, Microsoft-Windows-AppReadiness/Operational, Microsoft-Windows-AppReadiness/Debug}
+Microsoft-Windows-Kernel-XDV                                               {Microsoft-Windows-Kernel-XDV/Analytic, System}
+Microsoft-Windows-Bits-Client                                              {System, Microsoft-Windows-Bits-Client/Operational, Microsoft-Windows-Bits-Client/Analytic}
+Microsoft-Windows-Application-Experience                                   {Microsoft-Windows-Application-Experience/Compatibility-Infrastructure-Debug, Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant/Analytic, …
+Microsoft-Windows-Serial-ClassExtension-V2                                 {System, Microsoft-Windows-Serial-ClassExtension-V2/Analytic}
+Microsoft-Windows-Kernel-File                                              {Microsoft-Windows-Kernel-File/Analytic}
+Microsoft-Windows-Hyper-V-SynthStor                                        {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-Provisioning-Diagnostics-Provider                        {Microsoft-Windows-Provisioning-Diagnostics-Provider/Admin, Microsoft-Windows-Provisioning-Diagnostics-Provider/AutoPilot, Microsoft-Windows-Provisioning-Diagnos…
+Microsoft-Windows-Crashdump                                                {Microsoft-Windows-Crashdump/Operational}
+Microsoft-Windows-OOBE-Machine-Core                                        {Microsoft-Windows-OOBE-Machine-Core/Diagnostic}
+Microsoft-Windows-NcdAutoSetup                                             {Microsoft-Windows-NcdAutoSetup/Operational, Microsoft-Windows-NcdAutoSetup/Diagnostic}
+Microsoft-Windows-AppModel-Exec                                            {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-SecurityMitigationsBroker                                {Microsoft-Windows-SecurityMitigationsBroker/Perf, Microsoft-Windows-SecurityMitigationsBroker/Operational, Microsoft-Windows-SecurityMitigationsBroker/Admin}
+Microsoft-Windows-ACL-UI                                                   {}
+Microsoft-Windows-Security-Adminless                                       {Microsoft-Windows-Security-Adminless/Operational}
+Microsoft-WindowsPhone-Ufx                                                 {}
+Microsoft-Windows-TabletPC-InputPanel                                      {TabletPC_InputPanel_Channel, OSK_SoftKeyboard_Channel, TabletPC_InputPanel_Channel/IHM, Physical_Keyboard_Manager_Channel…}
+Microsoft-Windows-StorageSettings                                          {Microsoft-Windows-StorageSettings/Diagnostic}
+Microsoft-Windows-DeviceUpdateAgent                                        {Microsoft-Windows-DeviceUpdateAgent/Operational}
+Microsoft-Windows-Crypto-NCrypt                                            {Microsoft-Windows-Crypto-NCrypt/Operational}
+Microsoft-Windows-WCNWiz                                                   {Microsoft-Windows-WCNWiz/Analytic}
+Microsoft-Windows-Thermal-Polling                                          {}
+Microsoft-Windows-Subsys-Csr                                               {Microsoft-Windows-Subsys-Csr/Operational}
+Microsoft-Windows-Graphics-Printing                                        {}
+Microsoft-Windows-UAC                                                      {Microsoft-Windows-UAC/Operational}
+Microsoft-Windows-Security-Vault                                           {Microsoft-Windows-Security-Vault/Performance}
+Microsoft-Windows-BrokerInfrastructure                                     {Microsoft-Windows-BackgroundTaskInfrastructure/Diagnostic, Microsoft-Windows-BackgroundTaskInfrastructure/Operational}
+Microsoft-Windows-DiskDiagnostic                                           {System, Microsoft-Windows-DiskDiagnostic/Operational}
+Microsoft-Windows-ReadyBoost                                               {Microsoft-Windows-ReadyBoost/Operational, Microsoft-Windows-ReadyBoost/Analytic}
+Microsoft-Windows Networking VPN Plugin Platform                           {Windows Networking Vpn Plugin Platform/Operational, Windows Networking Vpn Plugin Platform/OperationalVerbose}
+Microsoft.Windows.HyperV.VmIcCore                                          {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-WiFiNetworkManager                                       {Microsoft-WindowsPhone-Connectivity-WiFiConnSvc-Channel}
+Microsoft-Windows-Security-Netlogon                                        {Microsoft-Windows-NTLM/Operational, Microsoft-Windows-Security-Netlogon/Operational}
+Microsoft-Windows-TabletPC-Platform-Input-Wisp                             {}
+Microsoft-Windows-Firewall                                                 {System}
+Microsoft-Windows-Winsock-AFD                                              {Microsoft-Windows-Winsock-AFD/Operational}
+Microsoft-Windows-Diagnosis-PLA                                            {Microsoft-Windows-Diagnosis-PLA/Operational, Microsoft-Windows-Diagnosis-PLA/Debug}
+Microsoft-Antimalware-Protection                                           {}
+Microsoft-Windows-Feedback-Service-TriggerProvider                         {}
+Microsoft-Windows-VDRVROOT                                                 {Microsoft-Windows-VDRVROOT/Operational}
+Microsoft-Windows-UI-Shell                                                 {Microsoft-Windows-UI-Shell/Diagnostic}
+Microsoft-Windows-Crypto-CNG                                               {Microsoft-Windows-Crypto-CNG/Analytic}
+Microsoft-Windows-MountMgr                                                 {System}
+Microsoft-Windows-Defrag-Core                                              {Microsoft-Windows-Defrag-Core/Debug}
+Microsoft-Windows-IME-Broker                                               {Microsoft-Windows-IME-Broker/Analytic}
+Microsoft-Windows-VHDMP                                                    {Microsoft-Windows-VHDMP-Operational, Microsoft-Windows-VHDMP-Analytic}
+Microsoft-Windows-Security-SPP                                             {Application, Microsoft-Windows-Security-SPP/Perf}
+Microsoft-Windows-IME-CustomerFeedbackManager                              {Microsoft-Windows-IME-CustomerFeedbackManager/Debug}
+Microsoft-Windows-Diagnosis-Scripted                                       {Microsoft-Windows-Diagnosis-Scripted/Admin, Microsoft-Windows-Diagnosis-Scripted/Operational, Microsoft-Windows-Diagnosis-Scripted/Debug, Microsoft-Windows-Diag…
+Microsoft-Windows-DVD                                                      {Navigator}
+Microsoft-Windows-RTWorkQueue-Threading                                    {RTWorkQueueTheading}
+Microsoft-Windows-GPIOButtons                                              {}
+Microsoft-Windows-DotNETRuntime                                            {}
+Microsoft-Windows-DiskDiagnosticDataCollector                              {Microsoft-Windows-DiskDiagnosticDataCollector/Operational}
+Microsoft-Windows-Install-Agent                                            {Microsoft-Windows-Store/Operational}
+Microsoft-Windows-UIAnimation                                              {Microsoft-Windows-UIAnimation/Diagnostic}
+Microsoft-Windows-WebServices                                              {Microsoft-Windows-WebServices/Tracing}
+Microsoft-Windows-Kernel-Audit-API-Calls                                   {}
+Microsoft-Windows-Diagnosis-WDI                                            {Microsoft-Windows-Diagnosis-WDI/Debug}
+Microsoft-Windows-IME-KRTIP                                                {Microsoft-Windows-IME-KRTIP/Analytic}
+Microsoft-Windows-PDFReader                                                {Microsoft-Windows-glcnd/Diagnostic, Microsoft-Windows-glcnd/Debug, Microsoft-Windows-glcnd/Admin}
+Microsoft-Windows-Ndu                                                      {Microsoft-Windows-Ndu/Diagnostic}
+Microsoft-Windows-DeviceUx                                                 {Microsoft-Windows-DeviceUx/Informational, Microsoft-Windows-DeviceUx/Performance}
+Microsoft-Windows-FMS                                                      {System, Microsoft-Windows-FMS/Operational, Microsoft-Windows-FMS/Analytic, Microsoft-Windows-FMS/Debug}
+Microsoft-Windows-Hyper-V-Chipset                                          {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic, Microsoft-Windows-Hyper-V-Worker-Operational}
+Microsoft-Windows-TaskScheduler                                            {Microsoft-Windows-TaskScheduler/Operational, System, Microsoft-Windows-TaskScheduler/Debug, Microsoft-Windows-TaskScheduler/Diagnostic…}
+Microsoft-Windows-Help                                                     {Microsoft-Windows-Help/Operational}
+Microsoft-Windows-HotspotAuth                                              {Microsoft-Windows-HotspotAuth/Analytic, Microsoft-Windows-HotspotAuth/Operational}
+Microsoft-Windows-AuthenticationProvider                                   {Microsoft-Windows-Authentication/ProtectedUser-Client, Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController, Microsoft-Windows-Authentication…
+Microsoft-Windows-Energy-Estimation-Engine                                 {Microsoft-Windows-Energy-Estimation-Engine/Trace, Microsoft-Windows-Energy-Estimation-Engine/EventLog}
+Ntfs                                                                       {System}
+Microsoft-Windows-HttpService                                              {Microsoft-Windows-HttpService/Trace, System}
+Microsoft-Windows-DirectAccess-MediaManager                                {Microsoft-Windows-DAMM/Diagnostic}
+Microsoft-Windows-MCCS-AccountsRT                                          {}
+Microsoft-Windows-WPD-MTPUS                                                {Microsoft-Windows-WPD-MTPUS/Analytic}
+Microsoft-Windows-LinkLayerDiscoveryProtocol                               {Microsoft-Windows-LinkLayerDiscoveryProtocol/Operational, Microsoft-Windows-LinkLayerDiscoveryProtocol/Diagnostic}
+Microsoft-Windows-MCCS-SyncUtil                                            {}
+Microsoft-Windows-IIS-Configuration                                        {Microsoft-IIS-Configuration/Administrative, Microsoft-IIS-Configuration/Operational, Microsoft-IIS-Configuration/Analytic, Microsoft-IIS-Configuration/Debug}
+Microsoft-Windows-Winlogon                                                 {Microsoft-Windows-Winlogon/Diagnostic, Microsoft-Windows-Winlogon/Operational, System}
+Microsoft-Windows-IME-JPLMP                                                {Microsoft-Windows-IME-JPLMP/Analytic}
+Microsoft-Windows-Direct3D11                                               {Microsoft-Windows-Direct3D11/Analytic, Microsoft-Windows-Direct3D11/Logging, Microsoft-Windows-Direct3D11/PerfTiming}
+Microsoft-Windows-WebAuth                                                  {Microsoft-Windows-WebAuth/Operational}
+Microsoft-Windows-Bluetooth-Bthmini                                        {Microsoft-Windows-Bluetooth-Bthmini/Operational}
+Microsoft-Windows-User Profiles General                                    {Application, Microsoft-Windows-User Profile Service/Operational, Microsoft-Windows-User Profile Service/Diagnostic}
+Microsoft-Office-Word                                                      {WordChannel}
+Microsoft-Windows-Power-CAD                                                {}
+Microsoft-Windows-AxInstallService                                         {Application, Microsoft-Windows-AxInstallService/Log}
+Microsoft-Windows-Search-ProtocolHandlers                                  {Microsoft-Windows-Search-ProtocolHandlers/Diagnostic}
+Microsoft-Windows-WLAN-Driver                                              {Microsoft-Windows-WLAN-Driver/Analytic}
+Microsoft-Windows-IIS-IISReset                                             {System}
+Microsoft-Windows-USBVideo                                                 {Microsoft-Windows-USBVideo/Analytic}
+Microsoft-Windows-ASN1                                                     {Microsoft-Windows-ASN1/Operational}
+Microsoft-Windows-RPCSS                                                    {EndpointMapper}
+Microsoft-Windows-UI-Search                                                {Microsoft-Windows-SearchUI/Diagnostic, Microsoft-Windows-SearchUI/Operational}
+Microsoft-Windows-Sensors                                                  {Microsoft-Windows-Sensors/Performance, Microsoft-Windows-Sensors/Debug}
+Microsoft-Windows-Ras-NdisWanPacketCapture                                 {Microsoft-Windows-Ras-NdisWanPacketCapture/Diagnostic}
+Microsoft-Windows-EapMethods-Ttls                                          {Microsoft-Windows-EapMethods-Ttls/Operational}
+Microsoft-Windows-CorruptedFileRecovery-Server                             {System, Microsoft-Windows-CorruptedFileRecovery-Server/Operational}
+Microsoft-Windows-Privacy-Auditing                                         {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-WAS-ListenerAdapter                                      {Application}
+Microsoft-Windows-WEPHOSTSVC                                               {Microsoft-Windows-WEPHOSTSVC/Operational}
+Microsoft-Windows-Winsock-WS2HELP                                          {Microsoft-Windows-Winsock-WS2HELP/Operational}
+Microsoft-Windows-WindowsColorSystem                                       {Microsoft-Windows-WindowsColorSystem/Operational, Microsoft-Windows-WindowsColorSystem/Debug}
+Microsoft-Windows-IME-TCTIP                                                {Microsoft-Windows-IME-TCTIP/Analytic}
+Microsoft-Windows-WlanDlg                                                  {Microsoft-Windows-WlanDlg/Analytic}
+Intel-iaLPSS-I2C                                                           {Intel-iaLPSS-I2C/Analytic, System}
+Microsoft-Windows-ProcessStateManager                                      {Microsoft-Windows-ProcessStateManager/Diagnostic}
+Microsoft-Windows-SMBServer                                                {Microsoft-Windows-SMBServer/Performance, Microsoft-Windows-SMBServer/Analytic, Microsoft-Windows-SMBServer/Operational, Microsoft-Windows-SMBServer/Diagnostic…}
+Microsoft-Windows-COM                                                      {Microsoft-Windows-COM/Analytic}
+Microsoft-Windows-RetailDemo                                               {Microsoft-Windows-RetailDemo/Admin, Microsoft-Windows-RetailDemo/Operational}
+Microsoft-Windows-Build-RegDll                                             {Microsoft-Windows-Regsvr32/Operational}
+Microsoft-Windows-DLNA-Namespace                                           {Microsoft-Windows-DLNA-Namespace/Analytic}
+Intel-iaLPSS-GPIO                                                          {Intel-iaLPSS-GPIO/Analytic, System}
+Microsoft-Antimalware-UacScan                                              {Uac/Debug}
+Microsoft-Windows-SleepStudy                                               {Microsoft-Windows-SleepStudy/Diagnostic}
+Microsoft-Windows-Privacy-Auditing-DiagnosticData                          {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-All-User-Install-Agent                                   {Microsoft-Windows-All-User-Install-Agent/Admin}
+Microsoft-Windows-Dwm-Dwm                                                  {Microsoft-Windows-Dwm-Dwm/Diagnostic}
+Microsoft-Windows-Media-Protection-PlayReady-Performance                   {PlayReadyPerformanceChannel}
+Microsoft-Windows-UserDataAccess-UserDataUtils                             {}
+Microsoft-Windows-Kernel-Memory                                            {Microsoft-Windows-Kernel-Memory/Analytic}
+Microsoft-Windows-Windows Firewall With Advanced Security                  {Microsoft-Windows-Windows Firewall With Advanced Security/Firewall, Microsoft-Windows-Windows Firewall With Advanced Security/ConnectionSecurity, Microsoft-Wind…
+Microsoft-Windows-IE-F12-Provider                                          {}
+Microsoft-Windows-msmpeg2venc                                              {Microsoft-Windows-MPEG2-Video-Encoder-MFT_Analytic}
+Microsoft-Windows-Spell-Checking                                           {Microsoft-Windows-Spell-Checking/Analytic, System, Application}
+Microsoft-Windows-AppIDServiceTrigger                                      {}
+Microsoft-Windows-Time-Service-PTP-Provider                                {Microsoft-Windows-Time-Service-PTP-Provider/PTP-Operational}
+Microsoft-Antimalware-AMFilter                                             {}
+Microsoft-Windows-Diagnostics-Performance                                  {Microsoft-Windows-Diagnostics-Performance/Operational, Microsoft-Windows-Diagnostics-Performance/Diagnostic, Microsoft-Windows-Diagnostics-Performance/Diagnosti…
+Microsoft-Windows-DCLocator                                                {Microsoft-Windows-DCLocator/Debug}
+Microsoft-Windows-UserModePowerService                                     {Microsoft-Windows-UserModePowerService/Diagnostic, System}
+Microsoft-Windows-Kernel-Tm-Trigger                                        {}
+Microsoft-Windows-NDIS                                                     {Microsoft-Windows-NDIS/Operational, Microsoft-Windows-NDIS/Diagnostic, System}
+Microsoft-Windows-Power-Troubleshooter                                     {System}
+Microsoft-Windows-ReFS                                                     {System, Microsoft-Windows-ReFS/Operational}
+Error Instrument                                                           {Application}
+Microsoft-Windows-Tethering-Manager                                        {Microsoft-Windows-Tethering-Manager/Analytic}
+Microsoft-Windows-AppLocker                                                {Microsoft-Windows-AppLocker/EXE and DLL, Microsoft-Windows-AppLocker/MSI and Script, Microsoft-Windows-AppLocker/Packaged app-Execution, Microsoft-Windows-AppLo…
+Microsoft-Windows-Websocket-Protocol-Component                             {Microsoft-Windows-Websocket-Protocol-Component/Tracing}
+Microsoft-Windows-Processor-Aggregator                                     {}
+Microsoft-Windows-ATAPort                                                  {Microsoft-Windows-ATAPort/SATA-LPM, Microsoft-Windows-ATAPort/General, Microsoft-Windows-Storage-ATAPort/Diagnose, Microsoft-Windows-Storage-ATAPort/Debug…}
+Microsoft-Windows-LanGPA                                                   {Microsoft-Windows-Wired-AutoConfig/Operational}
+Volsnap                                                                    {System}
+Microsoft-Windows-IIS-APPHOSTSVC                                           {System}
+Microsoft-Windows-PerfNet                                                  {Application}
+Microsoft-Windows-WlanPref                                                 {}
+Microsoft-Windows-Search                                                   {Application}
+Microsoft-Windows-DXGI                                                     {Microsoft-Windows-DXGI/Analytic, Microsoft-Windows-DXGI/Logging}
+Microsoft-Windows-HomeGroup-ProviderService                                {Microsoft-Windows-HomeGroup Provider Service/Operational, Microsoft-Windows-HomeGroup Provider Service Performance/Diagnostic}
+Microsoft-Windows-IPSEC-SRV                                                {Microsoft-Windows-IPSEC-SRV/Diagnostic}
+Microsoft-Windows-StartupRepair                                            {System}
+Microsoft-Windows-SruMon                                                   {Microsoft-Windows-SruMon/Diagnostic}
+Microsoft-Windows-Documents                                                {Microsoft-Windows-Documents/Performance}
+Microsoft-Windows-USB-USBPORT                                              {Microsoft-Windows-USB-USBPORT/Diagnostic}
+Microsoft-Windows-Magnification                                            {}
+Microsoft-Windows-WinML                                                    {Microsoft-Windows-WinML/Analytic}
+Microsoft-Windows-Crypto-BCrypt                                            {Microsoft-Windows-Crypto-BCRYPT/Analytic}
+Microsoft-Windows-Hyper-V-CrashDump                                        {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-Kernel-Disk                                              {Microsoft-Windows-Kernel-Disk/Analytic}
+Microsoft-Windows-TerminalServices-RemoteConnectionManager                 {System, Microsoft-Windows-TerminalServices-RemoteConnectionManager/Admin, Microsoft-Windows-TerminalServices-RemoteConnectionManager/Analytic, Microsoft-Windows…
+Microsoft-Windows-International-RegionalOptionsControlPanel                {Microsoft-Windows-International-RegionalOptionsControlPanel/Operational}
+Microsoft-Windows-Application Server-Applications                          {Microsoft-Windows-Application Server-Applications/Admin, Microsoft-Windows-Application Server-Applications/Operational, Microsoft-Windows-Application Server-App…
+Microsoft-Windows-Kernel-Acpi                                              {Microsoft-Windows-Kernel-Acpi/Diagnostic}
+Microsoft-Windows-Security-SPP-UX-Notifications                            {Microsoft-Windows-Security-SPP-UX-Notifications/ActionCenter}
+OpenSSH                                                                    {OpenSSH/Admin, OpenSSH/Operational, OpenSSH/Debug}
+Microsoft-Windows-StorPort                                                 {Microsoft-Windows-StorPort/Operational, Microsoft-Windows-Storage-Storport/Diagnose, Microsoft-Windows-Storage-Storport/Debug, Microsoft-Windows-Storage-Storpor…
+Microsoft-Windows-DirectComposition                                        {Microsoft-Windows-DirectComposition/Diagnostic}
+Microsoft-Windows-HttpLog                                                  {Microsoft-Windows-HttpService/Log}
+Microsoft.Windows.HyperV.GpupVDev                                          {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-WPD-MTPIP                                                {Microsoft-Windows-WPD-MTPIP/Analytic}
+Microsoft-Windows-TabletPC-CoreInkRecognition                              {}
+Intel-iaLPSS2-I2C                                                          {Intel-iaLPSS2-I2C/Debug, Intel-iaLPSS2-I2C/Performance}
+Microsoft-Windows-FeatureConfiguration                                     {Microsoft-Windows-FeatureConfiguration/Analytic, Microsoft-Windows-FeatureConfiguration/Operational}
+Microsoft-Windows-Hyper-V-SynthNic                                         {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-WHEA-Logger                                              {System}
+Microsoft-Windows-Hyper-V-Guest-Drivers-IcSvc                              {Microsoft-Windows-Hyper-V-Guest-Drivers/Diagnose, Microsoft-Windows-Hyper-V-Guest-Drivers/Admin}
+Microsoft-Windows-WCN-Config-Registrar                                     {Microsoft-Windows-WCN-Config-Registrar/Diagnostic}
+Microsoft-Windows-WCN-Config-Registrar-Secure                              {Microsoft-Windows-WCN-Config-Registrar/Diagnostic}
+Microsoft-Windows-Diagnostics-PerfTrack-Counters                           {Microsoft-Windows-Diagnostics-PerfTrack-Counters/Diagnostic}
+Microsoft-Windows-PersistentMemory-ScmBus                                  {Microsoft-Windows-PersistentMemory-ScmBus/Diagnose, Microsoft-Windows-PersistentMemory-ScmBus/Analytic, Microsoft-Windows-PersistentMemory-ScmBus/Operational, M…
+Microsoft-Windows-UAC-FileVirtualization                                   {Microsoft-Windows-UAC-FileVirtualization/Operational}
+Microsoft-Windows-AppModel-State                                           {Application, Microsoft-Windows-AppModel-State/Debug, Microsoft-Windows-AppModel-State/Diagnostic}
+Microsoft-Windows-MCCS-EngineShared                                        {}
+Microsoft-Windows-COMRuntime                                               {Application, Microsoft-Windows-COMRuntime/Tracing, Microsoft-Windows-COMRuntime/Activations, Microsoft-Windows-COMRuntime/MessageProcessing}
+Microsoft-Windows-UI-Input-Inking                                          {}
+Microsoft-Windows-Kernel-LiveDump                                          {Microsoft-Windows-Kernel-LiveDump/Analytic, Microsoft-Windows-Kernel-LiveDump/Operational}
+Microsoft-Windows-MCCS-InternetMailCsp                                     {}
+Microsoft-Windows-CertificateServicesClient-Lifecycle-User                 {Microsoft-Windows-CertificateServicesClient-Lifecycle-User/Operational}
+Microsoft-Windows-Graphics-Printing3D                                      {}
+Microsoft-Windows-NetworkGCW                                               {}
+Microsoft-Windows-Sens                                                     {Microsoft-Windows-Sens/Debug}
+Microsoft-Windows-Photo-Image-Codec                                        {WINDOWS_WMPHOTO_CHANNEL}
+Microsoft-Windows-IME-TIP                                                  {Microsoft-Windows-IME-TIP/Analytic}
+Microsoft-Windows-TabletPC-MathRecognizer                                  {}
+Microsoft-Windows-Directory-Services-SAM-Utility                           {}
+Microsoft-Windows-GroupPolicyTriggerProvider                               {}
+Microsoft-Windows-Servicing                                                {Setup, Microsoft-Windows-Servicing/Debug}
+Microsoft-Windows-MediaFoundation-Platform                                 {MediaFoundationDeviceProxy, MediaFoundationPlatform}
+Microsoft-Gaming-Services                                                  {Microsoft-Windows-Store/Operational}
+Microsoft-Windows-CertificateServicesClient-Lifecycle-System               {Microsoft-Windows-CertificateServicesClient-Lifecycle-System/Operational}
+Microsoft-Windows-PNRPSvc                                                  {System}
+Microsoft-Windows-Security-SPP-UX-GC                                       {Microsoft-Windows-Security-SPP-UX-GC/Analytic}
+Microsoft-Windows-IIS-IisMetabaseAudit                                     {}
+Microsoft-Windows-InputSwitch                                              {Microsoft-Windows-InputSwitch/Diagnostic}
+Microsoft-Windows-PlayToManager                                            {Microsoft-Windows-PlayToManager/Analytic}
+Microsoft-Office-Word2                                                     {WordChannel}
+Microsoft-Windows-Memory-Diagnostic-Task-Handler                           {System}
+Microsoft-Windows-ModernDeployment-Diagnostics-Provider                    {Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Admin, Microsoft-Windows-ModernDeployment-Diagnostics-Provider/Autopilot, Microsoft-Windows-ModernDeploy…
+Microsoft-Windows-AppxPackagingOM                                          {Microsoft-Windows-AppxPackaging/Operational, Microsoft-Windows-AppxPackaging/Performance, Microsoft-Windows-AppxPackaging/Debug}
+Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory                     {Microsoft-Windows-Hyper-V-Guest-Drivers/Diagnose, Microsoft-Windows-Hyper-V-Guest-Drivers/Debug, Microsoft-Windows-Hyper-V-Guest-Drivers/Analytic, Microsoft-Win…
+Microsoft-Windows-CorruptedFileRecovery-Client                             {System, Microsoft-Windows-CorruptedFileRecovery-Client/Operational}
+Microsoft-Windows-Deplorch                                                 {Microsoft-Windows-Deplorch/Analytic, Setup}
+Microsoft-Windows-Runtime-Networking-BackgroundTransfer                    {Microsoft-Windows-Runtime-Networking-BackgroundTransfer/Tracing}
+Microsoft-Windows-UserDataAccess-UserDataApis                              {Microsoft-WindowsMobile-CommsApis-Channel}
+Microsoft-Windows-Containers-Wcnfs                                         {Microsoft-Windows-Containers-Wcnfs/Operational, Microsoft-Windows-Containers-Wcnfs/Debug}
+Microsoft-Windows-EventCollector                                           {Application, System, ForwardedEvents, HardwareEvents…}
+Microsoft-Windows-Data-Pdf                                                 {Microsoft-Windows-Data-Pdf/Debug}
+Microsoft-Windows-Wired-AutoConfig                                         {Microsoft-Windows-Wired-AutoConfig/Operational, Microsoft-Windows-Wired-AutoConfig/Diagnostic}
+Microsoft-Windows-COM-Perf                                                 {Microsoft-Windows-Runtime/CreateInstance, Microsoft-Windows-COM/CreateInstance, Microsoft-Windows-COM/ExtensionCatalog, Microsoft-Windows-COM/Call…}
+Microsoft-Windows-MediaFoundation-MFCaptureEngine                          {Microsoft-Windows-MediaFoundation-MFCaptureEngine/MFCaptureEngine}
+Microsoft-Client-Licensing-Platform                                        {Microsoft-Client-Licensing-Platform/Diagnostic, Microsoft-Client-Licensing-Platform/Debug, Microsoft-Client-Licensing-Platform/Admin}
+Microsoft-Windows-SystemEventsBroker                                       {SystemEventsBroker}
+Microsoft-Windows-Kernel-EventTracing                                      {Microsoft-Windows-Kernel-EventTracing/Admin, Microsoft-Windows-Kernel-EventTracing/Analytic}
+Microsoft-Windows-MediaFoundation-PlayAPI                                  {Microsoft-Windows-MediaFoundation-PlayAPI/Analytic}
+Microsoft-Windows-TabletPC-Platform-Input-Core                             {}
+Microsoft-Windows-Ras-AgileVpn                                             {Microsoft-Windows-RasAgileVpn/Debug, Microsoft-Windows-RasAgileVpn/Operational}
+Microsoft-Windows-mobsync                                                  {Microsoft-Windows-mobsync/Diagnostic}
+Microsoft-Windows-FileHistory-UI                                           {Microsoft-Windows-FileHistory-UI-Events/Debug, Microsoft-Windows-FileHistory-UI-Events/Analytic, Microsoft-Windows-FileHistory-Engine/BackupLog}
+Microsoft-Windows-FileHistory-Service                                      {Microsoft-Windows-FileHistory-Service/Debug, Microsoft-Windows-FileHistory-Service/Analytic}
+Microsoft-Windows-FileHistory-EventListener                                {Microsoft-Windows-FileHistory-EventListener/Debug, Microsoft-Windows-FileHistory-EventListener/Analytic, Microsoft-Windows-FileHistory-Engine/BackupLog}
+Microsoft-Windows-FileHistory-Engine                                       {Microsoft-Windows-FileHistory-Engine/Debug, Microsoft-Windows-FileHistory-Engine/Analytic, Microsoft-Windows-FileHistory-Engine/BackupLog}
+Microsoft-Windows-FileHistory-ConfigManager                                {Microsoft-Windows-FileHistory-ConfigManager/Debug, Microsoft-Windows-FileHistory-ConfigManager/Analytic}
+Microsoft-Windows-FileHistory-Catalog                                      {Microsoft-Windows-FileHistory-Catalog/Debug, Microsoft-Windows-FileHistory-Catalog/Analytic}
+Microsoft-Windows-FileHistory-Core                                         {Microsoft-Windows-FileHistory-Core/Debug, Microsoft-Windows-FileHistory-Core/Analytic, Microsoft-Windows-FileHistory-Core/WHC, Microsoft-Windows-FileHistory-Eng…
+Microsoft-Windows-WWAN-NDISUIO-EVENTS                                      {Microsoft-Windows-WWAN-NDISUIO-EVENTS/Diagnostic}
+Microsoft-Windows-Kernel-PnP-Rundown                                       {}
+Microsoft-Windows-SpellChecker                                             {Microsoft-Windows-SpellChecker/Analytic, System, Application}
+Microsoft-PerfTrack-IEFRAME                                                {Microsoft-PerfTrack-IEFRAME/Diagnostic}
+Microsoft-Windows-MediaFoundation-Performance-Core                         {MediaFoundationPerformanceCore}
+Microsoft-Windows-PowerCpl                                                 {Microsoft-Windows-PowerCpl/Diagnostic}
+Microsoft-Windows-StorageManagement-WSP-Health                             {Microsoft-Windows-StorageManagement/Debug}
+Microsoft-Windows-Hyper-V-DynMem                                           {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+User32                                                                     {System}
+Microsoft-Windows-User-Loader                                              {Application, Microsoft-Windows-User-Loader/Operational, Microsoft-Windows-User-Loader/Analytic}
+Microsoft-Windows-Sdstor                                                   {Microsoft-Windows-Sdstor/Analytic}
+Microsoft-Windows-CertPolEng                                               {Microsoft-Windows-CertPoleEng/Operational}
+Microsoft-Windows-Hyper-V-ComputeLib                                       {Microsoft-Windows-Hyper-V-Compute-Admin, Microsoft-Windows-Hyper-V-Compute-Operational, Microsoft-Windows-Hyper-V-Compute-Analytic}
+Microsoft-Windows-Netshell                                                 {Microsoft-Windows-NetShell/Performance}
+Microsoft-Windows-HomeGroup-ListenerService                                {Microsoft-Windows-HomeGroup-ListenerService, Microsoft-Windows-HomeGroup Listener Service/Operational}
+Microsoft-Windows-Smartcard-Trigger                                        {}
+Microsoft-Windows-Containers-Wcifs                                         {Microsoft-Windows-Containers-Wcifs/Operational, Microsoft-Windows-Containers-Wcifs/Debug}
+Microsoft-Windows-GroupPolicy                                              {System, Microsoft-Windows-GroupPolicy/Operational}
+Microsoft-Windows-MSMPEG2VDEC                                              {WINDOWS_MSMPEG2VDEC_CHANNEL}
+Microsoft-Windows-Audio                                                    {Application, Microsoft-Windows-Audio/Operational, Microsoft-Windows-Audio/CaptureMonitor, Microsoft-Windows-Audio/Performance…}
+Microsoft-Windows-Hyper-V-Virtual-PMEM                                     {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-PerceptionRuntime                                        {Microsoft-Windows-PerceptionRuntime/Operational}
+Microsoft-Windows-WER-Diag                                                 {}
+Microsoft-Windows-WPDClassInstaller                                        {Microsoft-Windows-WPD-ClassInstaller/Operational, Microsoft-Windows-WPD-ClassInstaller/Analytic}
+Microsoft-Windows-USB-USBHUB3                                              {System, Microsoft-Windows-USB-USBHUB3-Analytic}
+Microsoft-Windows-NTLM                                                     {Microsoft-Windows-NTLM/Operational, Microsoft-Windows-Authentication/ProtectedUserFailures-DomainController, Microsoft-Windows-Authentication/AuthenticationPoli…
+Microsoft-Windows-Kernel-IO                                                {Microsoft-Windows-Kernel-IO/Operational, System}
+Microsoft-Windows-WER-SystemErrorReporting                                 {System}
+Microsoft-Windows-WebDeploy                                                {Microsoft-Windows-WebDeploy/Debug, Microsoft-Windows-WebDeploy/Error, Microsoft-Windows-WebDeploy/Info, Microsoft-Windows-WebDeploy/Verbose…}
+Microsoft-Windows-IIS-FTP                                                  {}
+Microsoft-Windows-OneX                                                     {Microsoft-Windows-OneX/Diagnostic, Microsoft-Windows-OneX/Operational}
+Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager {Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager/Operational, Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManag…
+Microsoft-Windows-SmartCard-DeviceEnum                                     {Microsoft-Windows-SmartCard-DeviceEnum/Operational}
+Microsoft-Windows-Diagnosis-PCW                                            {Microsoft-Windows-Diagnosis-PCW/Operational, Microsoft-Windows-Diagnosis-PCW/Analytic, Microsoft-Windows-Diagnosis-PCW/Debug}
+Microsoft-Windows-StorageSpaces-ManagementAgent                            {Microsoft-Windows-StorageSpaces-ManagementAgent/WHC}
+Microsoft-Windows-EnhancedStorage-EhStorTcgDrv                             {System, Microsoft-Windows-EnhancedStorage-EhStorTcgDrv/Analytic}
+Microsoft-Windows-Kernel-PowerTrigger                                      {}
+Microsoft-Windows-Privacy-Auditing-PersonalInkingAndTyping                 {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-CoreSystem-SmsRouter                                     {Microsoft-Windows-CoreSystem-SmsRouter-Events/Operational, Microsoft-Windows-CoreSystem-SmsRouter-Events/Debug}
+Microsoft-Windows-Storsvc                                                  {Microsoft-Windows-Storsvc/Diagnostic}
+Microsoft-Windows-MUI                                                      {Microsoft-Windows-MUI/Operational, Microsoft-Windows-MUI/Admin, Microsoft-Windows-MUI/Analytic, Microsoft-Windows-MUI/Debug}
+Microsoft-Windows-WinRT-Error                                              {Microsoft-Windows-Runtime/Error}
+Application-Addon-Event-Provider                                           {Application}
+Microsoft-Windows-FailoverClustering-Client                                {System, Microsoft-Windows-FailoverClustering-Client/Diagnostic}
+Microsoft-Windows-TabletPC-InputPersonalization                            {}
+Microsoft-Windows-PersistentMemory-Nvdimm                                  {System, Microsoft-Windows-PersistentMemory-Nvdimm/Analytic, Microsoft-Windows-PersistentMemory-Nvdimm/Diagnostic, Microsoft-Windows-PersistentMemory-Nvdimm/Oper…
+Microsoft-Windows-WinRM                                                    {Microsoft-Windows-WinRM/Debug, Microsoft-Windows-WinRM/Operational, Microsoft-Windows-WinRM/Analytic}
+Microsoft-Windows-MF                                                       {MF_MediaFoundationDeviceProxy, MF_MediaFoundationDeviceMFT, MediaFoundationPipeline, MediaFoundationContentProtection…}
+Microsoft-Windows-WinINet-Capture                                          {Microsoft-Windows-WinINet-Capture/Analytic}
+Microsoft-Windows-SharedAccess_NAT                                         {System}
+Microsoft-Windows-PDC                                                      {Microsoft-Windows-Kernel-Pdc/Diagnostic}
+Microsoft-Windows-Kernel-StoreMgr                                          {Microsoft-Windows-Kernel-StoreMgr/Analytic, Microsoft-Windows-Kernel-StoreMgr/Operational}
+Microsoft-Windows-Kernel-General                                           {System}
+Microsoft-Windows-IPNAT                                                    {Microsoft-Windows-IPNAT/Diagnostic}
+Microsoft-Windows-NetworkBridge                                            {System, Microsoft-Windows-NetworkBridge/Diagnostic}
+Microsoft-Windows-DotNETRuntimeRundown                                     {}
+Microsoft-Windows-SetupQueue                                               {Microsoft-Windows-SetupQueue/Analytic, Setup}
+Microsoft-Windows-Diagnosis-MSDE                                           {Microsoft-Windows-Diagnosis-MSDE/Debug}
+Microsoft-Windows-ResetEng                                                 {System}
+Microsoft-Windows-Wmbclass-Opn                                             {}
+Microsoft-Windows-MediaFoundation-MSVProc                                  {MedaFoundationVideoProc, MedaFoundationVideoProcD3D}
+Microsoft-Windows-PortableDeviceSyncProvider                               {Microsoft-Windows-PortableDeviceSyncProvider/Analytic}
+Microsoft-Windows-CoreWindow                                               {Microsoft-Windows-CoreWindow/Debug, Microsoft-Windows-CoreWindow/Analytic}
+Microsoft-Windows-Shell-LockScreenContent                                  {Microsoft-Windows-Shell-LockScreenContent/Diagnostic}
+Microsoft-Windows-FileInfoMinifilter                                       {Microsoft-Windows-FileInfoMinifilter/Operational}
+Microsoft-Windows-Dwm-Udwm                                                 {Microsoft-Windows-Dwm-Udwm/Diagnostic}
+Microsoft-Office-Word3                                                     {WordChannel}
+Microsoft-Windows-Network-Setup                                            {Microsoft-Windows-Network-Setup/Diagnostic}
+Microsoft-Windows-Kernel-IoTrace                                           {Microsoft-Windows-Kernel-IoTrace/Diagnostic}
+Microsoft-Windows-Biometrics                                               {Microsoft-Windows-Biometrics/Operational, Microsoft-Windows-Biometrics/Analytic}
+Microsoft-Windows-PowerShell                                               {Microsoft-Windows-PowerShell/Operational, Microsoft-Windows-PowerShell/Analytic, Microsoft-Windows-PowerShell/Debug, Microsoft-Windows-PowerShell/Admin}
+Microsoft-WindowsPhone-CoreUIComponents                                    {}
+Microsoft-Windows-Kernel-LicensingSqm                                      {}
+Microsoft-Windows-DriverFrameworks-UserMode-Performance                    {}
+Microsoft-Windows-SettingSync-Azure                                        {Microsoft-Windows-SettingSync-Azure/Operational, Microsoft-Windows-SettingSync-Azure/Debug}
+Microsoft-Windows-Volume                                                   {Microsoft-Windows-Volume/Diagnostic}
+Microsoft-Windows-SCPNP                                                    {System}
+Microsoft-Windows-Hyper-V-VfpExt                                           {Microsoft-Windows-Hyper-V-VfpExt-Analytic}
+Microsoft-Windows-PowerCfg                                                 {Microsoft-Windows-PowerCfg/Diagnostic}
+Microsoft-Windows-Dwm-Core                                                 {Microsoft-Windows-Dwm-Core/Diagnostic}
+Microsoft-IE                                                               {Microsoft-IE/Diagnostic, Microsoft-Windows-WebPlatStorage-Server}
+Microsoft-Windows-MF-FrameServer                                           {MF_MediaFoundationFrameServer}
+Microsoft-Windows-WebcamExperience                                         {Microsoft-Windows-WebcamProvider/Analytic}
+Microsoft-Windows-Sensors-Core-Performance                                 {}
+Microsoft-Windows-IdleTriggerProvider                                      {}
+Microsoft-Windows-FunctionDiscovery                                        {Analytic}
+Microsoft-Windows-Winsrv                                                   {Application, Microsoft-Windows-Winsrv/Analytic}
+Microsoft-Windows-EapMethods-RasTls                                        {Microsoft-Windows-EapMethods-RasTls/Operational}
+Microsoft-Windows-Store                                                    {Microsoft-Windows-Store/Operational}
+Microsoft-Windows-Kernel-PnP                                               {System, Microsoft-Windows-Kernel-PnP/Configuration, Microsoft-Windows-Kernel-PnP/Boot Diagnostic, Microsoft-Windows-Kernel-PnP/Device Enumeration Diagnostic…}
+Microsoft-Windows-Direct3D10_1                                             {Microsoft-Windows-Direct3D10_1/Analytic}
+Microsoft-Windows-Direct3D10                                               {Microsoft-Windows-Direct3D10/Analytic}
+Microsoft-Windows-CDROM                                                    {Microsoft-Windows-CDROM/Operational}
+Microsoft-Windows-NetworkManagerTriggerProvider                            {}
+Microsoft-Windows-Cleanmgr                                                 {Microsoft-Windows-Cleanmgr/Diagnostic}
+Microsoft-WindowsPhone-Net-Cellcore-CellManager                            {Microsoft-WindowsPhone-Net-Cellcore-CellManager/Debug}
+Microsoft-Windows-UserDataAccess-PimIndexMaintenance                       {}
+Microsoft-Windows-Resource-Exhaustion-Detector                             {System, Microsoft-Windows-Resource-Exhaustion-Detector/Operational}
+Microsoft-Windows-Superfetch                                               {Microsoft-Windows-Superfetch/Main, Microsoft-Windows-Superfetch/StoreLog, Microsoft-Windows-Superfetch/PfApLog}
+Microsoft-Windows-SPB-HIDI2C                                               {Microsoft-Windows-SPB-HIDI2C/Analytic, System}
+Microsoft-Windows-Storage-Tiering-IoHeat                                   {Microsoft-Windows-Storage-Tiering-IoHeat/Heat}
+Microsoft-Windows-Security-Kerberos                                        {Microsoft-Windows-Kerberos/Operational}
+Microsoft-Windows-AppHost                                                  {Microsoft-Windows-AppHost/Admin, Microsoft-Windows-AppHost/Internal, Microsoft-Windows-AppHost/Diagnostic, Microsoft-Windows-AppHost/ApplicationTracing}
+Microsoft-Windows-CertificationAuthorityClient-CertCli                     {Application}
+Microsoft-Windows-SMBClient                                                {Microsoft-Windows-SMBClient/HelperClassDiagnostic, Microsoft-Windows-SMBClient/ObjectStateDiagnostic, Microsoft-Windows-SMBClient/Operational, Microsoft-Windows…
+Microsoft-Windows-Media-Streaming                                          {Microsoft-Windows-Media-Streaming/DMC, Microsoft-Windows-Media-Streaming/DMR, Microsoft-Windows-Media-Streaming/MDE}
+Microsoft-Windows-EDP-AppLearning                                          {Microsoft-Windows-EDP-Application-Learning/Admin}
+Microsoft-Windows-ShellCommon-StartLayoutPopulation                        {Microsoft-Windows-ShellCommon-StartLayoutPopulation/Diagnostic, Microsoft-Windows-ShellCommon-StartLayoutPopulation/Operational}
+NetJoin                                                                    {System}
+Microsoft-Windows-PerfCtrs                                                 {Application}
+Microsoft-Windows-UserPnp                                                  {System, Microsoft-Windows-UserPnp/SchedulerOperations, Microsoft-Windows-UserPnp/Performance, Microsoft-Windows-UserPnp/DeviceMetadata/Debug…}
+Microsoft-Windows-Kernel-BootDiagnostics                                   {Microsoft-Windows-Kernel-BootDiagnostics/Diagnostic}
+Microsoft-Windows-DirectShow-Core                                          {Application, DirectShowPluginControl, DirectShowFilterGraph}
+Microsoft-Windows-IndirectDisplays-ClassExtension-Events                   {Microsoft-Windows-IndirectDisplays-ClassExtension-Events/Diagnostic}
+Microsoft-Windows-MSFTEDIT                                                 {Microsoft-Windows-MSFTEDIT/Diagnostic}
+Microsoft-Windows-HealthCenterCPL                                          {Microsoft-Windows-HealthCenterCPL/Performance}
+Microsoft-Windows-WLAN-AutoConfig                                          {Microsoft-Windows-WLAN-AutoConfig/Operational, System, Microsoft-Windows-WLAN-Autoconfig/Diagnostic}
+Microsoft-Windows-TerminalServices-Printers                                {Microsoft-Windows-TerminalServices-Printers/Admin, Microsoft-Windows-TerminalServices-Printers/Analytic, Microsoft-Windows-TerminalServices-Printers/Operational…
+Microsoft-Windows-Kernel-Interrupt-Steering                                {System, Microsoft-Windows-Kernel-Interrupt-Steering/Diagnostic}
+Microsoft-Windows-WindowsUpdateClient                                      {System, Microsoft-Windows-WindowsUpdateClient/Operational, Microsoft-Windows-WindowsUpdateClient/Analytic}
+Microsoft-Windows-Host-Network-Management                                  {Microsoft-Windows-Host-Network-Service-Admin, Microsoft-Windows-Host-Network-Service-Operational, Microsoft-Windows-Host-Network-Service-Analytic}
+Microsoft-Windows-LUA                                                      {Microsoft-Windows-LUA-ConsentUI/Diagnostic}
+Microsoft-Windows-NetworkProvisioning                                      {Microsoft-Windows-NetworkProvisioning/Analytic, Microsoft-Windows-NetworkProvisioning/Operational}
+Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider                    {Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Operational, Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider/Debug}
+Microsoft-Windows-WPD-MTPBT                                                {Microsoft-Windows-WPD-MTPBT/Analytic}
+Microsoft-Windows-EndpointTriggerProvider                                  {}
+Microsoft-Windows-Base-Filtering-Engine-Resource-Flows                     {Microsoft-Windows-Base-Filtering-Engine-Resource-Flows/Operational}
+Microsoft-Windows-Security-ExchangeActiveSyncProvisioning                  {Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Performance, Microsoft-Windows-Security-ExchangeActiveSyncProvisioning/Operational}
+Microsoft-WindowsPhone-CoreMessaging                                       {}
+Microsoft-Windows-RadioManager                                             {Microsoft-Windows-RadioManager/Analytic}
+Microsoft-Windows-Resource-Exhaustion-Resolver                             {Microsoft-Windows-Resource-Exhaustion-Resolver/Operational}
+Microsoft-Windows-MobilityCenter                                           {Microsoft-Windows-MobilityCenter/Performance}
+Microsoft-Windows-Schannel-Events                                          {Microsoft-Windows-Schannel-Events/Perf}
+Microsoft-Windows-QoS-Pacer                                                {Microsoft-Windows-QoS-Pacer/Diagnostic}
+Microsoft-Windows-HelloForBusiness                                         {Microsoft-Windows-HelloForBusiness/Operational}
+Microsoft-Windows-IIS-W3SVC-PerfCounters                                   {Application}
+Microsoft-Windows-Heap-Snapshot                                            {}
+Microsoft-Windows-Hyper-V-Serial                                           {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-MediaEngine                                              {MediaFoundationMediaEngine}
+Microsoft-Windows-Runtime-Media                                            {Microsoft-Windows-Runtime-Windows-Media/WinRTCaptureEngine, Microsoft-Windows-Runtime-Windows-Media/WinRTTranscode, Microsoft-Windows-Runtime-Windows-Media/WinR…
+Microsoft-Antimalware-RTP                                                  {}
+Microsoft-Windows-Ntfs-UBPM                                                {System}
+Microsoft-Windows-PrimaryNetworkIcon                                       {Microsoft-Windows-PrimaryNetworkIcon/Performance, Microsoft-Windows-NetworkLocationWizard/Operational}
+Microsoft-Windows-IME-JPTIP                                                {Microsoft-Windows-IME-JPTIP/Analytic}
+Microsoft-Windows-PortableDeviceStatusProvider                             {Microsoft-Windows-PortableDeviceStatusProvider/Analytic}
+Microsoft-Windows-Win32k                                                   {Microsoft-Windows-Win32k/Tracing, Microsoft-Windows-Win32k/UIPI, Microsoft-Windows-Win32k/Power, Microsoft-Windows-Win32k/Concurrency…}
+Microsoft-Windows-DirectSound                                              {Microsoft-Windows-DirectSound/Debug}
+Microsoft-Windows-BTH-BTHPORT                                              {Microsoft-Windows-BTH-BTHPORT/HCI, Microsoft-Windows-BTH-BTHPORT/L2CAP}
+Microsoft-Windows-Crypto-DPAPI                                             {Microsoft-Windows-Crypto-DPAPI/Operational, Microsoft-Windows-Crypto-DPAPI/BackUpKeySvc, Microsoft-Windows-Crypto-DPAPI/Debug}
+Microsoft-Windows-User Profiles Service                                    {Application, Microsoft-Windows-User Profile Service/Operational, Microsoft-Windows-User Profile Service/Diagnostic}
+Microsoft-Windows-CertificateServicesClient-CredentialRoaming              {Application, Microsoft-Windows-CertificateServicesClient-CredentialRoaming/Operational}
+Microsoft-Windows-EventSystem                                              {Application}
+Microsoft-Windows-StateRepository                                          {Microsoft-Windows-StateRepository/Diagnostic, Microsoft-Windows-StateRepository/Operational, Microsoft-Windows-StateRepository/Debug, Microsoft-Windows-StateRep…
+Microsoft-Windows-KnownFolders                                             {Microsoft-Windows-Known Folders API Service}
+Microsoft-Windows-KdsSvc                                                   {Microsoft-Windows-KdsSvc/Operational}
+Microsoft-Windows-PushNotifications-Platform                               {Microsoft-Windows-PushNotification-Platform/Operational, Microsoft-Windows-PushNotification-Platform/Debug, Microsoft-Windows-PushNotification-Platform/Admin}
+Microsoft-Windows-StorageManagement-WSP-Spaces                             {Microsoft-Windows-StorageManagement/Operational}
+Microsoft-Windows-UIRibbon                                                 {Microsoft-Windows-UIRibbon/Diagnostic}
+Microsoft-Office-Events                                                    {OfficeChannel, OfficeDebugChannel}
+Microsoft-Windows-MPEG2_DLNA-Encoder                                       {muxencode}
+Microsoft-Windows-ThemeUI                                                  {Microsoft-Windows-ThemeUI/Diagnostic}
+Microsoft-Windows-stobject                                                 {Microsoft-Windows-stobject/Diagnostic}
+Microsoft-Windows-L2NACP                                                   {Microsoft-Windows-WLAN-AutoConfig/Operational, Microsoft-Windows-Wired-AutoConfig/Operational, Microsoft-Windows-L2NA/Diagnostic}
+Microsoft-Windows-PerceptionSensorDataService                              {Microsoft-Windows-PerceptionSensorDataService/Operational}
+Microsoft-Windows-Audit-CVE                                                {Application, System}
+Microsoft-Windows-OLE-Perf                                                 {Microsoft-Windows-OLE/Clipboard-Performance}
+Microsoft-Windows-TabletPC-MathInput                                       {}
+Microsoft-Windows-DUSER                                                    {Microsoft-Windows-DUSER/Diagnostic}
+Microsoft-Windows-RTWorkQueue-Extended                                     {RTWorkQueueExtended}
+Microsoft-Windows-Networking-Correlation                                   {Microsoft-Windows-Networking-Correlation/Diagnostic}
+Microsoft-Windows-SettingSync                                              {Microsoft-Windows-SettingSync/Operational, Microsoft-Windows-SettingSync/Debug, Microsoft-Windows-SettingSync/Analytic, Microsoft-Windows-SettingSync/VerboseDeb…
+Microsoft-Windows-UserDataAccess-CEMAPI                                    {}
+Microsoft-Windows-DUI                                                      {Microsoft-Windows-DUI/Diagnostic}
+Microsoft-Windows-Narrator                                                 {Microsoft-Windows-Narrator/Diagnostic}
+Microsoft-Windows-UIAutomationCore                                         {Microsoft-Windows-UIAutomationCore/Diagnostic, Microsoft-Windows-UIAutomationCore/Perf, Microsoft-Windows-UIAutomationCore/Debug}
+Microsoft-Windows-PushNotifications-InProc                                 {Microsoft-Windows-PushNotification-InProc/Debug}
+Microsoft-Windows-WiFiHotspotService                                       {}
+Microsoft-Windows-AppXDeployment                                           {Microsoft-Windows-AppXDeployment/Diagnostic, Microsoft-Windows-AppXDeployment/Operational}
+Microsoft-Windows-DxgKrnl                                                  {Microsoft-Windows-DxgKrnl/Diagnostic, Microsoft-Windows-DxgKrnl/Performance, Microsoft-Windows-DxgKrnl/Power, Microsoft-Windows-DxgKrnl/Contention…}
+Microsoft-Windows-MCCS-SyncController                                      {}
+Microsoft-Windows-ResetEng-Trace                                           {Microsoft-Windows-ResetEng-Trace/Diagnostic}
+Microsoft-Windows-PerfDisk                                                 {Application}
+Microsoft-Windows-ComDlg32                                                 {Microsoft-Windows-ComDlg32/Debug, Microsoft-Windows-ComDlg32/Analytic}
+Microsoft-IE-JSDumpHeap                                                    {Microsoft-JSDumpHeap/Diagnostic}
+Microsoft-Windows-PrintService-USBMon                                      {Microsoft-Windows-PrintService-USBMon/Debug}
+Microsoft-Windows-MP4SDECD                                                 {WINDOWS_MP4SDECD_CHANNEL}
+Microsoft-Windows-IIS-Logging                                              {Microsoft-IIS-Logging/Logs}
+Microsoft-Windows-DAL-Provider                                             {Microsoft-Windows-DAL-Provider/Operational, Microsoft-Windows-DAL-Provider/Analytic}
+Microsoft-Windows-D3D10Level9                                              {Microsoft-Windows-D3D10Level9/Analytic, Microsoft-Windows-D3D10Level9/PerfTiming}
+Microsoft-Windows-StorageManagement                                        {Microsoft-Windows-StorageManagement/Operational, Microsoft-Windows-StorageManagement/Debug}
+Microsoft-Windows-Kernel-Network                                           {Microsoft-Windows-Kernel-Network/Analytic}
+Microsoft-Windows-DfsSvc                                                   {System}
+Microsoft-Windows-Dwm-Redir                                                {Microsoft-Windows-Dwm-Redir/Diagnostic}
+Microsoft-Windows-Folder Redirection                                       {Application, Microsoft-Windows-Folder Redirection/Operational}
+Microsoft-Windows-TPM-WMI                                                  {System}
+Microsoft-Windows-WinHttp                                                  {Microsoft-Windows-WinHttp/Diagnostic, Microsoft-Windows-WinHTTP-NDF/Diagnostic}
+Microsoft-Windows-SoftwareRestrictionPolicies                              {Application}
+Microsoft-Windows-Graphics-Capture-Server                                  {}
+Microsoft-Windows-IME-CandidateUI                                          {Microsoft-Windows-IME-CandidateUI/Analytic}
+Microsoft-Windows-WMPNSSUI                                                 {Microsoft-Windows-WMPNSSUI/Diagnostic}
+Microsoft-Windows-NetworkSecurity                                          {Microsoft-Windows-NetworkSecurity/Debug}
+Microsoft-Windows-HttpEvent                                                {System}
+Microsoft-Windows-Kernel-WHEA                                              {System, Microsoft-Windows-Kernel-WHEA/Errors, Microsoft-Windows-Kernel-WHEA/Operational}
+Microsoft-Windows-Hyper-V-VSmb                                             {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic, Microsoft-Windows-Hyper-V-Worker-Operational}
+Microsoft-Windows-MSDTC Client                                             {Application}
+Microsoft-Windows-NetworkStatus                                            {Microsoft-Windows-NetworkStatus/Analytic}
+Microsoft-Windows-D3D9                                                     {Microsoft-Windows-Direct3D9/Analytic}
+Microsoft-Windows-WWAN-MM-EVENTS                                           {Microsoft-Windows-WWAN-MM-Events/Diagnostic}
+Microsoft-Windows-XWizards                                                 {Application}
+NodeJS-ETW-provider                                                        {}
+Microsoft-Windows-WinMDE                                                   {Microsoft-Windows-WinMDE/MDE}
+Microsoft-Windows-USB-MAUSBHOST                                            {System, Microsoft-Windows-USB-MAUSBHOST-Analytic}
+Microsoft-Windows-PhotoAcq                                                 {Microsoft-Windows-PhotoAcq/Analytic}
+Microsoft-Windows-Workplace Join                                           {Microsoft-Windows-Workplace Join/Admin}
+Microsoft-Windows-SetupCl                                                  {Microsoft-Windows-SetupCl/Analytic}
+Microsoft-Windows-Windeploy                                                {Microsoft-Windows-Windeploy/Analytic, Setup}
+Microsoft-Windows-Setup                                                    {Microsoft-Windows-Setup/Analytic, Setup, System}
+Microsoft-Windows-OobeLdr                                                  {Microsoft-Windows-OobeLdr/Analytic, Setup}
+Microsoft-Windows-Sysprep                                                  {Microsoft-Windows-Sysprep/Analytic, Setup}
+Microsoft-Windows-CmiSetup                                                 {Microsoft-Windows-CmiSetup/Analytic, Setup}
+Microsoft-Windows-Audit                                                    {Microsoft-Windows-Audit/Analytic, Setup}
+Microsoft-Windows-SetupUGC                                                 {Microsoft-Windows-SetupUGC/Analytic, Setup}
+Microsoft-Windows-Dism-Api                                                 {Microsoft-Windows-Dism-Api/Analytic, Microsoft-Windows-Dism-Api/InternalAnalytic, Microsoft-Windows-Dism-Api/ExternalAnalytic}
+Microsoft-Windows-IME-KRAPI                                                {Microsoft-Windows-IME-KRAPI/Analytic}
+Microsoft-Antimalware-Service                                              {}
+Microsoft-Windows-Sensors-Core                                             {}
+Microsoft-Windows-DDisplay                                                 {Microsoft-Windows-DDisplay/Analytic, Microsoft-Windows-DDisplay/Logging}
+Microsoft-Windows-Speech-TTS                                               {Microsoft-Windows-TTS/Diagnostic}
+Microsoft-Windows-ResourcePublication                                      {System, Microsoft-Windows-ResourcePublication/Tracing}
+Microsoft-Windows-TSF-msutb                                                {Microsoft-Windows-TSF-msutb/Diagnostic, Microsoft-Windows-TSF-msutb/Debug}
+Microsoft-Windows-EaseOfAccess                                             {Microsoft-Windows-EaseOfAccess/Diagnostic}
+Microsoft-Windows-WindowsUIImmersive                                       {Microsoft-Windows-WindowsUIImmersive/Diagnostic, Microsoft-Windows-WindowsUIImmersive/Operational}
+Microsoft-Windows-PrintService                                             {Microsoft-Windows-PrintService/Admin, Microsoft-Windows-PrintService/Operational, Microsoft-Windows-PrintService/Debug}
+Microsoft-Windows-USB-USBHUB                                               {Microsoft-Windows-USB-USBHUB/Diagnostic}
+Microsoft-Windows-DateTimeControlPanel                                     {Microsoft-Windows-DateTimeControlPanel/Operational, Microsoft-Windows-DateTimeControlPanel/Analytic, Microsoft-Windows-DateTimeControlPanel/Debug}
+Microsoft-Windows-CloudStore                                               {Microsoft-Windows-CloudStore/Operational, Microsoft-Windows-CloudStore/Debug}
+Microsoft-Windows-MemoryDiagnostics-Schedule                               {System}
+Microsoft-Windows-LimitsManagement                                         {Microsoft-Windows-LimitsManagement/Diagnostic}
+Microsoft-Windows-IsolatedUserMode                                         {System}
+Microsoft-Windows-DevMgmt-UefiCsp                                          {}
+Microsoft-Windows-CertificateServicesClient                                {Application}
+Microsoft-Windows-PerfProc                                                 {Application}
+Microsoft-Windows-SPB-ClassExtension                                       {Microsoft-Windows-SPB-ClassExtension/Analytic, System}
+Microsoft-Windows-DXP                                                      {Microsoft-Windows-DXP/Analytic}
+Microsoft-Windows-ADSI                                                     {Microsoft-Windows-ADSI/Debug}
+Microsoft-Windows-OneBackup                                                {Microsoft-Windows-OneBackup/Debug}
+Microsoft-Windows-LanguagePackSetup                                        {System, Microsoft-Windows-LanguagePackSetup/Operational, Microsoft-Windows-LanguagePackSetup/Analytic, Microsoft-Windows-LanguagePackSetup/Debug}
+Microsoft-Windows-WWAN-CFE                                                 {Microsoft-Windows-WWAN-CFE/Diagnostic}
+Microsoft-Windows-MSDTC                                                    {Application}
+Microsoft-Windows-Video-For-Windows                                        {Application}
+Microsoft-Windows-WiFiDisplay                                              {Microsoft-Windows-WiFiDisplay/Analytic}
+Microsoft-Windows-Kernel-Registry                                          {Microsoft-Windows-Kernel-Registry/Analytic, Microsoft-Windows-Kernel-Registry/Performance}
+Microsoft-Windows-Wallet                                                   {System}
+Microsoft-Windows-Display                                                  {}
+Microsoft-Windows-EapHost                                                  {Application, Microsoft-Windows-EapHost/Operational, Microsoft-Windows-EapHost/Analytic, Microsoft-Windows-EapHost/Debug}
+Microsoft-Windows-Runtime-Networking                                       {Microsoft-Windows-Runtime-Networking/Tracing}
+Microsoft-Windows-TerminalServices-ClientUSBDevices                        {Microsoft-Windows-TerminalServices-ClientUSBDevices/Admin, Microsoft-Windows-TerminalServices-ClientUSBDevices/Analytic, Microsoft-Windows-TerminalServices-Clie…
+Microsoft-Windows-Shell-ConnectedAccountState                              {Microsoft-Windows-Shell-ConnectedAccountState/ActionCenter}
+Microsoft-Windows-ApplicationExperience-Cache                              {Microsoft-Windows-Kernel-ApphelpCache/Operational, Microsoft-Windows-Kernel-ApphelpCache/Debug, Microsoft-Windows-Kernel-ApphelpCache/Analytic}
+Microsoft-Windows-IdCtrls                                                  {Microsoft-Windows-IdCtrls/Operational, Microsoft-Windows-IdCtrls/Analytic}
+Microsoft-Windows-RasSstp                                                  {System}
+Microsoft-Windows-Security-SPP-UX                                          {Microsoft-Windows-Security-SPP-UX/Analytic}
+Microsoft-Windows-Runtime-WebAPI                                           {Microsoft-Windows-Runtime-WebAPI/Tracing}
+Microsoft-Windows-Diagnosis-DPS                                            {Microsoft-Windows-Diagnosis-DPS/Debug, Microsoft-Windows-Diagnosis-DPS/Operational, Microsoft-Windows-Diagnosis-DPS/Analytic}
+Microsoft-Windows-QoS-qWAVE                                                {Microsoft-Windows-QoS-qWAVE/Debug}
+Microsoft-Windows-Fault-Tolerant-Heap                                      {System, Microsoft-Windows-Fault-Tolerant-Heap/Operational}
+Microsoft-WindowsPhone-Net-Cellcore-CellularAPI                            {Microsoft-WindowsPhone-Net-Cellcore-CellularAPI/Debug}
+Microsoft-Windows-Disk                                                     {Microsoft-Windows-Disk/Operational, Microsoft-Windows-Storage-Disk/Diagnose, Microsoft-Windows-Storage-Disk/Debug, Microsoft-Windows-Storage-Disk/Analytic…}
+Microsoft-Windows-DiskDiagnosticResolver                                   {Microsoft-Windows-DiskDiagnosticResolver/Operational}
+Microsoft-Windows-AIT                                                      {}
+Microsoft-Windows-RPC                                                      {Microsoft-Windows-RPC/EEInfo, Microsoft-Windows-RPC/Debug}
+Microsoft-Windows-Network-and-Sharing-Center                               {Microsoft-Windows-Network-and-Sharing-Center/Diagnostic}
+Microsoft-Windows-WMPNSS-Service                                           {Microsoft-Windows-WMPNSS-Service/Diagnostic, System, Microsoft-Windows-WMPNSS-Service/Operational}
+Microsoft-Windows-DHCPv6-Client                                            {Microsoft-Windows-Dhcpv6-Client/Admin, Microsoft-Windows-Dhcpv6-Client/Operational, System}
+Microsoft-Windows-StorageSpaces-SpaceManager                               {Microsoft-Windows-StorageSpaces-SpaceManager/Operational, Microsoft-Windows-StorageSpaces-SpaceManager/Diagnostic}
+Microsoft-Windows-Forwarding                                               {Microsoft-Windows-Forwarding/Operational, Microsoft-Windows-Forwarding/Debug}
+Microsoft-Antimalware-Engine-Instrumentation                               {}
+Microsoft-Windows-VolumeSnapshot-Driver                                    {Microsoft-Windows-VolumeSnapshot-Driver/Analytic, Microsoft-Windows-VolumeSnapshot-Driver/Operational}
+Microsoft-Windows-Hyper-V-VmSwitch                                         {System, Microsoft-Windows-Hyper-V-VmSwitch-Operational, Microsoft-Windows-Hyper-V-VmSwitch-Diagnostic, Microsoft-Windows-Hyper-V-VmSwitch-Diagnostic-Traffic}
+Microsoft-Windows-BootUX                                                   {}
+Microsoft-Windows-Wcmsvc                                                   {Microsoft-Windows-Wcmsvc/Operational, Microsoft-Windows-Wcmsvc/Diagnostic}
+Microsoft-Windows-ntshrui                                                  {Microsoft-Windows-ntshrui, Microsoft-Windows-ntshrui-perf}
+Microsoft-Windows-IIS-W3SVC-WP                                             {Application}
+Microsoft-Windows-WinNat                                                   {Microsoft-Windows-WinNat/Trace, Microsoft-Windows-WinNat/Oper}
+Microsoft-Windows-Iphlpsvc                                                 {System, Microsoft-Windows-Iphlpsvc/Operational}
+Splashtop-Splashtop Business app-Remote Session                            {Splashtop-Splashtop Business app-Remote Session/Operational}
+Splashtop-Splashtop Business app-Status                                    {Splashtop-Splashtop Business app-Status/Operational}
+Splashtop-Splashtop Business app-Remote Computer Info                      {Splashtop-Splashtop Business app-Remote Computer Info/Operational}
+Microsoft-Windows-Iphlpsvc-Trace                                           {Microsoft-Windows-Iphlpsvc/Trace, Microsoft-Windows-Iphlpsvc/Debug}
+Microsoft-Windows-Shell-DefaultPrograms                                    {Microsoft-Windows-Shell-DefaultPrograms/Diagnostic}
+Microsoft-Windows-ServiceTriggerPerfEventProvider                          {}
+Microsoft-Windows-BitLocker-Driver                                         {System}
+Microsoft-Windows-Devices-Background                                       {System, Microsoft-Windows-Devices-Background/Operational}
+Microsoft-Windows-BackgroundTransfer-ContentPrefetcher                     {Microsoft-Windows-BackgroundTransfer-ContentPrefetcher/Operational}
+Microsoft-Windows-UniversalTelemetryClient                                 {Microsoft-Windows-UniversalTelemetryClient/Operational}
+Microsoft-Windows-Input-HIDCLASS                                           {Microsoft-Windows-Input-HIDCLASS-Analytic}
+Microsoft-Windows-Privacy-Auditing-Activity-History-Privacy-Settings       {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-Shell-AuthUI                                             {Microsoft-Windows-Authentication User Interface/Operational, Microsoft-Windows-Shell-AuthUI-CredUI/Diagnostic, Microsoft-Windows-Shell-AuthUI-Logon/Diagnostic, …
+Microsoft-Windows-HAL                                                      {System, Microsoft-Windows-HAL/Debug}
+Microsoft-Windows-NlaSvc                                                   {Microsoft-Windows-NlaSvc/Diagnostic, Microsoft-Windows-NlaSvc/Operational}
+Intel-iaLPSS2-GPIO2                                                        {Intel-iaLPSS2-GPIO2/Debug, Intel-iaLPSS2-GPIO2/Performance}
+Microsoft-Windows-NdisImPlatformSysEvtProvider                             {System}
+Microsoft-Windows-ThemeCPL                                                 {Microsoft-Windows-ThemeCPL/Diagnostic}
+Microsoft-Windows-MCCS-InternetMail                                        {}
+WINSATAPI_ETW_PROVIDER                                                     {}
+Microsoft-Windows-WMPNSS-PublicAPI                                         {Microsoft-Windows-WMPNSS-PublicAPI/Diagnostic}
+Microsoft-Windows-ServiceReportingApi                                      {Microsoft-Windows-ServiceReportingApi/Debug}
+Microsoft-Windows-MCCS-ActiveSyncCsp                                       {}
+Microsoft-Windows-MemoryDiagnostics-Results                                {System, Microsoft-Windows-MemoryDiagnostics-Results/Debug}
+Microsoft-Windows-Immersive-Shell-API                                      {Microsoft-Windows-TWinAPI/Diagnostic, Microsoft-Windows-CoreApplication/Diagnostic, Microsoft-Windows-CoreApplication/Tracing, Microsoft-Windows-CoreApplication…
+Microsoft-Windows-ApplicationExperienceInfrastructure                      {Application}
+Microsoft-Windows-MSDTC 2                                                  {Application}
+Microsoft-Windows-TerminalServices-LocalSessionManager                     {System, Microsoft-Windows-TerminalServices-LocalSessionManager/Admin, Microsoft-Windows-TerminalServices-LocalSessionManager/Analytic, Microsoft-Windows-Termina…
+Microsoft-Windows-MCCS-DavSyncProvider                                     {}
+Microsoft-Windows-Direct3D12                                               {Microsoft-Windows-Direct3D12/Analytic, Microsoft-Windows-Direct3D12/Logging, Microsoft-Windows-Direct3D12/PerfTiming}
+Microsoft-Windows-BitLocker-API                                            {System, Microsoft-Windows-BitLocker/BitLocker Management, Microsoft-Windows-BitLocker/Tracing, Microsoft-Windows-BitLocker/BitLocker Operational}
+Microsoft-Windows-OtpCredentialProviderEvt                                 {Microsoft-Windows-OtpCredentialProvider/Operational}
+Microsoft-Windows-PushNotifications-Developer                              {Microsoft-Windows-PushNotification-Developer/Debug}
+Microsoft-IEFRAME                                                          {Microsoft-IEFRAME/Diagnostic}
+Microsoft-Windows-Network-DataUsage                                        {Microsoft-Windows-Network-DataUsage/Analytic}
+Microsoft-Windows-CAPI2                                                    {Application, Microsoft-Windows-CAPI2/Operational, Microsoft-Windows-CAPI2/Catalog Database Debug}
+Microsoft-Windows-PackageStateRoaming                                      {Microsoft-Windows-PackageStateRoaming/Operational, Microsoft-Windows-PackageStateRoaming/Debug, Microsoft-Windows-PackageStateRoaming/Analytic}
+Microsoft-Windows-RemoteAssistance                                         {Microsoft-Windows-RemoteAssistance/Operational, Microsoft-Windows-RemoteAssistance/Admin, Microsoft-Windows-RemoteAssistance/Tracing, Application}
+Microsoft-Windows-DomainJoinManagerTriggerProvider                         {}
+Microsoft-Windows-CredUI                                                   {Microsoft-Windows-CredUI/Diagnostic}
+Microsoft-Windows-XAML-Diagnostics                                         {Microsoft-Windows-XAML-Diagnostics/Default}
+Microsoft-Windows-Battery                                                  {Microsoft-Windows-Battery/Diagnostic}
+Microsoft-Windows-StorageSpaces-Driver                                     {Microsoft-Windows-StorageSpaces-Driver/Operational, Microsoft-Windows-StorageSpaces-Driver/Diagnostic, Microsoft-Windows-StorageSpaces-Driver/Performance}
+Microsoft-Windows-StorageManagement-WSP-Host                               {Microsoft-Windows-StorageManagement/Operational, Microsoft-Windows-StorageManagement/Debug}
+Microsoft-Windows-Hyper-V-VID                                              {Microsoft-Windows-Hyper-V-VID-Analytic, Microsoft-Windows-Hyper-V-VID-Admin}
+Microsoft-Windows-EapMethods-RasChap                                       {Microsoft-Windows-EapMethods-RasChap/Operational}
+Microsoft-Windows-HealthCenter                                             {Microsoft-Windows-HealthCenter/Debug, Microsoft-Windows-HealthCenter/Performance}
+Microsoft-Windows-Tethering-Station                                        {Microsoft-Windows-Tethering-Station/Analytic}
+Microsoft-Windows-WSC-SRV                                                  {Microsoft-Windows-WSC-SRV/Diagnostic}
+Microsoft-Windows-SettingSync-Desktop                                      {Microsoft-Windows-SettingSync/Operational, Microsoft-Windows-SettingSync/Debug, Microsoft-Windows-SettingSync/Analytic}
+Microsoft-Windows-DirectManipulation                                       {Microsoft-Windows-DirectManipulation/Diagnostic}
+Microsoft-Windows-Sysmon                                                   {Microsoft-Windows-Sysmon/Operational}
+Microsoft-JScript                                                          {}
+Microsoft-Windows-UserDataAccess-UnifiedStore                              {}
+Microsoft-Windows-DeviceAssociationService                                 {Microsoft-Windows-DeviceAssociationService/Performance}
+Microsoft-Windows-wmvdecod                                                 {WINDOWS_wmvdecod_CHANNEL}
+Microsoft-Windows-Minstore                                                 {Microsoft-Windows-Minstore/Analytic, Microsoft-Windows-Minstore/Debug}
+Microsoft-Windows-GPIO-ClassExtension                                      {Microsoft-Windows-GPIO-ClassExtension/Analytic, System}
+Service Control Manager                                                    {System}
+Microsoft-Windows-Winsock-NameResolution                                   {Microsoft-Windows-Winsock-NameResolution/Operational}
+Microsoft-Windows-Wordpad                                                  {Microsoft-Windows-Wordpad/Diagnostic, Microsoft-Windows-Wordpad/Debug, Microsoft-Windows-Wordpad/Admin}
+Microsoft-Windows-Crypto-RNG                                               {Microsoft-Windows-Crypto-RNG/Analytic}
+Microsoft-Windows-EQoS                                                     {Microsoft-Windows-Policy/Operational, Microsoft-Windows-Policy/Analytic}
+Microsoft-Windows-KernelStreaming                                          {WINDOWS_KS_CHANNEL}
+Microsoft-Windows-Security-Auditing                                        {Security}
+Microsoft-Windows-BfeTriggerProvider                                       {}
+Microsoft-Windows-Firewall-CPL                                             {Microsoft-Windows-Firewall-CPL/Diagnostic}
+Microsoft-Windows-MPS-SRV                                                  {Microsoft-Windows-MPS-SRV/Diagnostic}
+Microsoft-Windows-CertificateServicesClient-CertEnroll                     {Application}
+Microsoft-Windows-Kernel-Pep                                               {Microsoft-Windows-Kernel-Pep/Diagnostic}
+Microsoft-Windows-WinINet-Config                                           {Microsoft-Windows-WinINet-Config/ProxyConfigChanged}
+Microsoft-Windows-FunctionDiscoveryHost                                    {System}
+Microsoft-Windows-Kernel-Prefetch                                          {Microsoft-Windows-Kernel-Prefetch/Diagnostic}
+Microsoft-Windows-XAML                                                     {Microsoft-Windows-XAML/Default}
+Microsoft-Windows-SetupPlatform                                            {Microsoft-Windows-SetupPlatform/Analytic, Setup, System}
+Microsoft-Windows-Hyper-V-Hypervisor                                       {System, Microsoft-Windows-Hyper-V-Hypervisor-Admin, Microsoft-Windows-Hyper-V-Hypervisor-Operational, Microsoft-Windows-Hyper-V-Hypervisor-Analytic}
+Microsoft-Windows-IE-SmartScreen                                           {Microsoft-Windows-IE-SmartScreen}
+Microsoft-Windows-WAS                                                      {System}
+Microsoft-Windows-Hyper-V-Worker                                           {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Operational, Microsoft-Windows-Hyper-V-Worker-Analytic, Microsoft-Windows-Hyper-V-Worke…
+Microsoft-Windows-ELS-Hyphenation                                          {Els_Hyphenation/Analytic}
+Microsoft-Windows-MSMPEG2ADEC                                              {WINDOWS_MSMPEG2ADEC_CHANNEL}
+Microsoft-Windows-EDP-Audit-Regular                                        {Microsoft-Windows-EDP-Audit-Regular/Admin}
+Microsoft-Windows-DSC                                                      {Microsoft-Windows-DSC/Admin, Microsoft-Windows-DSC/Operational, Microsoft-Windows-DSC/Analytic, Microsoft-Windows-DSC/Debug}
+Microsoft-Windows-MPS-DRV                                                  {Microsoft-Windows-MPS-DRV/Diagnostic}
+Microsoft-Windows-SmbWmiProvider                                           {SmbWmiAnalytic}
+Microsoft-Windows-WebIO                                                    {Microsoft-Windows-WebIO/Diagnostic, Microsoft-Windows-WebIO-NDF/Diagnostic}
+Microsoft-Windows-Smartcard-Server                                         {System}
+Microsoft-Windows-TSF-msctf                                                {Microsoft-Windows-TSF-msctf/Diagnostic, Microsoft-Windows-TSF-msctf/Debug}
+Microsoft-Windows-osk                                                      {Microsoft-Windows-osk/Diagnostic}
+Microsoft-Windows-CodeIntegrity                                            {Microsoft-Windows-CodeIntegrity/Operational, Microsoft-Windows-CodeIntegrity/Verbose}
+Microsoft-Windows-TunnelDriver                                             {Microsoft-Windows-TunnelDriver}
+Microsoft-Windows-GenericRoaming                                           {Microsoft-Windows-GenericRoaming/Admin}
+Microsoft-Windows-AAD                                                      {Microsoft-Windows-AAD/Analytic, Microsoft-Windows-AAD/Operational}
+Microsoft-Windows-TSF-UIManager                                            {UIManager_Channel}
+Microsoft-Windows-PktMon                                                   {}
+Microsoft-Windows-VIRTDISK                                                 {Microsoft-Windows-VIRTDISK-Analytic}
+Microsoft-WindowsPhone-LocationServiceProvider                             {Microsoft-WindowsPhone-LocationServiceProvider/Debug}
+Microsoft-Windows-Kernel-Tm                                                {System}
+Microsoft-Windows-Program-Compatibility-Assistant                          {Microsoft-Windows-Program-Compatibility-Assistant/Analytic, Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant, Microsoft-Windows-Applicat…
+Microsoft-Windows-Diagnostics-LoggingChannel                               {}
+Microsoft-Windows-MediaFoundation-MFReadWrite                              {Microsoft-Windows-MediaFoundation-MFReadWrite/SourceReader, Microsoft-Windows-MediaFoundation-MFReadWrite/SinkWriter, Microsoft-Windows-MediaFoundation-MFReadWr…
+Microsoft-Windows-WER-PayloadHealth                                        {Microsoft-Windows-WER-PayloadHealth/Operational}
+Microsoft-Windows-Bluetooth-BthLEPrepairing                                {Microsoft-Windows-Bluetooth-BthLEPrepairing/Operational, System}
+Microsoft-Windows-MCCS-ActiveSyncProvider                                  {}
+Microsoft-Windows-Storage-Tiering                                          {Microsoft-Windows-Storage-Tiering/Admin}
+Microsoft-Windows-Search-Core                                              {Microsoft-Windows-Search-Core/Diagnostic}
+Microsoft-WindowsPhone-UfxSynopsys                                         {}
+Microsoft-Windows-Troubleshooting-Recommended                              {Microsoft-Windows-Troubleshooting-Recommended/Admin, Microsoft-Windows-Troubleshooting-Recommended/Operational}
+Microsoft-Windows-exFAT-SQM                                                {System}
+Microsoft-Windows-SrumTelemetry                                            {Microsoft-Windows-SrumTelemetry}
+Microsoft-Windows-DriverFrameworks-KernelMode-Performance                  {}
+Application Popup                                                          {System}
+Microsoft-Windows-Serial-ClassExtension                                    {Microsoft-Windows-Serial-ClassExtension/Analytic, System}
+Microsoft-Windows-ESE                                                      {Microsoft-Windows-ESE/Operational, Microsoft-Windows-ESE/IODiagnose}
+Microsoft-Windows-OverlayFilter                                            {System}
+Microsoft-Windows-WinJson                                                  {}
+Microsoft-Windows-WLGPA                                                    {Microsoft-Windows-WLAN-AutoConfig/Operational}
+Microsoft-Windows-Security-LessPrivilegedAppContainer                      {Microsoft-Windows-Security-LessPrivilegedAppContainer/Operational}
+Microsoft-Windows-Compat-Appraiser                                         {Microsoft-Windows-Compat-Appraiser/Analytic, Microsoft-Windows-Compat-Appraiser/Operational}
+Microsoft-Windows-Subsys-SMSS                                              {Microsoft-Windows-Subsys-SMSS/Operational, System}
+Microsoft-Windows-Crypto-DSSEnh                                            {Microsoft-Windows-Crypto-DSSEnh/Analytic}
+Microsoft-Windows-WinINet                                                  {Microsoft-Windows-WinINet/Analytic, Microsoft-Windows-WinINet/UsageLog, Microsoft-Windows-WinINet/WebSocket}
+Microsoft-Windows-StorageManagement-WSP-FS                                 {Microsoft-Windows-StorageManagement/Debug}
+Microsoft-Windows-UxTheme                                                  {Microsoft-Windows-UxTheme/Diagnostic}
+Microsoft-Windows-TunnelDriver-SQM-Provider                                {}
+Microsoft-Windows-Runtime-Web-Http                                         {Microsoft-Windows-Runtime-Web-Http/Tracing}
+Microsoft-OneCore-OnlineSetup                                              {Microsoft-OneCore-Setup/Analytic, Setup}
+Microsoft.Windows.ResourceManager                                          {}
+Microsoft-Windows-UxInit                                                   {Microsoft-Windows-UxInit/Diagnostic}
+Microsoft-Windows-Partition                                                {Microsoft-Windows-Partition/Diagnostic, Microsoft-Windows-Partition/Analytic}
+Microsoft-Windows-PeerToPeerDrtEventProvider                               {Microsoft-Windows-PeerToPeerDrtEventProvider/Diagnostic}
+Microsoft-Windows-Diagnosis-Scheduled                                      {Microsoft-Windows-Diagnosis-Scheduled/Operational}
+Microsoft-Windows-Security-UserConsentVerifier                             {Microsoft-Windows-Security-UserConsentVerifier/Audit}
+Microsoft-Windows-MCCS-AccountAccessor                                     {}
+Microsoft-Windows-Ntfs                                                     {System, Microsoft-Windows-Ntfs/Operational, Microsoft-Windows-Ntfs/WHC, Microsoft-Windows-Ntfs/Performance}
+Microsoft-Windows-WMPDMCUI                                                 {Microsoft-Windows-WMPDMCUI/Diagnostic}
+Microsoft-Windows-TerminalServices-MediaRedirection                        {Microsoft-Windows-TerminalServices-MediaRedirection/Analytic}
+Microsoft-Windows-AppXDeployment-Server                                    {Microsoft-Windows-AppXDeploymentServer/Diagnostic, Microsoft-Windows-AppXDeploymentServer/Operational, Microsoft-Windows-AppXDeploymentServer/Debug, Microsoft-W…
+Microsoft-Windows-Network-Connection-Broker                                {Microsoft-Windows-Network-Connection-Broker}
+Microsoft-Windows-IPxlatCfg                                                {Microsoft-Windows-IPxlatCfg/Operational, Microsoft-Windows-IPxlatCfg/Debug}
+Microsoft-Windows-Fat-SQM                                                  {System}
+Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider         {Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin, Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Operational, Micros…
+Microsoft-Windows-EapMethods-Sim                                           {Microsoft-Windows-EapMethods-Sim/Operational}
+Microsoft-Windows-DirectShow-KernelSupport                                 {Application, Microsoft-Windows-DirectShow-KernelSupport/Performance}
+Microsoft-Windows-WWAN-SVC-EVENTS                                          {Microsoft-Windows-WWAN-SVC-Events/Diagnostic, Microsoft-Windows-WWAN-SVC-Events/Operational}
+Microsoft-Windows-SmartScreen                                              {Microsoft-Windows-SmartScreen/Debug}
+Microsoft-Windows-AppID                                                    {Microsoft-Windows-AppID/Operational}
+Microsoft-Windows-Security-IdentityListener                                {Microsoft-Windows-Security-IdentityListener/Operational}
+Microsoft-Windows-VPN-Client                                               {Microsoft-Windows-VPN-Client/Operational}
+Microsoft-Windows-WebAuthN                                                 {Microsoft-Windows-WebAuthN/Operational}
+Microsoft-Windows-IME-JPPRED                                               {Microsoft-Windows-IME-JPPRED/Analytic}
+Microsoft-Windows-Push-To-Install-Service                                  {Microsoft-Windows-Store/Operational}
+Microsoft-Windows-Mprddm                                                   {Microsoft-Windows-Mprddm/Operational}
+Microsoft-Windows-TextPredictionEngine                                     {}
+Microsoft-Windows-MPS-CLNT                                                 {Microsoft-Windows-MPS-CLNT/Diagnostic}
+Microsoft-Windows-USB-UCX                                                  {Microsoft-Windows-USB-UCX-Analytic}
+Microsoft-Windows-Diagnostics-Networking                                   {Microsoft-Windows-Diagnostics-Networking/Operational, System, Microsoft-Windows-Diagnostics-Networking/Debug}
+Microsoft-Windows-Performance-Recorder-Control                             {}
+Microsoft-Windows-EFS                                                      {Microsoft-Windows-EFS/Debug, Application}
+Microsoft-Windows-Kernel-WSService-StartServiceTrigger                     {}
+Microsoft-Windows-CoreSystem-NetProvision-JoinProviderOnline               {System}
+Microsoft-Windows-MMCSS                                                    {}
+Microsoft-Windows-EventLog-WMIProvider                                     {Microsoft-Windows-EventLog-WMIProvider/Debug}
+Microsoft-Windows-SendTo                                                   {Microsoft-Windows-SendTo/Diagnostic}
+Microsoft-Windows-WPD-CompositeClassDriver                                 {Microsoft-Windows-WPD-CompositeClassDriver/Operational, Microsoft-Windows-WPD-CompositeClassDriver/Analytic}
+Microsoft-Windows-TZSync                                                   {Microsoft-Windows-TZSync/Analytic, Microsoft-Windows-TZSync/Operational}
+Microsoft-Windows-Privacy-Auditing-ImproveInkingAndTyping                  {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-WorkFolders                                              {Microsoft-Windows-WorkFolders/Operational, Microsoft-Windows-WorkFolders/Debug, Microsoft-Windows-WorkFolders/Analytic, Microsoft-Windows-WorkFolders/WHC}
+Microsoft-Windows-System-Profile-HardwareId                                {Microsoft-Windows-System-Profile-HardwareId/Diagnostic}
+Microsoft-Windows-Hyper-V-UiDevices                                        {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-BTH-BTHUSB                                               {Microsoft-Windows-BTH-BTHUSB/Diagnostic, Microsoft-Windows-BTH-BTHUSB/Performance}
+Microsoft-Windows-Kernel-Power                                             {System, Microsoft-Windows-Kernel-Power/Diagnostic, Microsoft-Windows-Kernel-Power/Thermal-Diagnostic, Microsoft-Windows-Kernel-Power/Thermal-Operational}
+Microsoft-Windows-DesktopActivityModerator                                 {Microsoft-Windows-DesktopActivityModerator/Diagnostic}
+Microsoft-Windows-WLAN-MediaManager                                        {Microsoft-Windows-WLAN-MediaManager/Diagnostic}
+Microsoft-Windows-DisplayColorCalibration                                  {Microsoft-Windows-DisplayColorCalibration/Operational, Microsoft-Windows-DisplayColorCalibration/Debug}
+Microsoft-Windows-SMBWitnessClient                                         {Microsoft-Windows-SMBWitnessClient/Admin, Microsoft-Windows-SMBWitnessClient/Informational}
+Microsoft-Windows-DesktopWindowManager-Diag                                {Microsoft-Windows-DesktopWindowManager-Diag/Diagnostic}
+Microsoft-Windows-IME-JPAPI                                                {Microsoft-Windows-IME-JPAPI/Analytic}
+Microsoft-Windows-User-ControlPanel                                        {Microsoft-Windows-User Control Panel/Diagnostic, Microsoft-Windows-User Control Panel Performance/Diagnostic, Microsoft-Windows-User Control Panel Usage/Diagnos…
+Microsoft-Windows-Immersive-Shell                                          {Microsoft-Windows-TWinUI/Diagnostic, Microsoft-Windows-TWinUI/Operational, Application}
+Microsoft-Windows-WPD-API                                                  {Microsoft-Windows-WPD-API/Analytic}
+Microsoft-Windows-NCSI                                                     {Microsoft-Windows-NCSI/Analytic, Microsoft-Windows-NCSI/Operational}
+Microsoft-Windows-VWiFi                                                    {Microsoft-Windows-VWiFi/Diagnostic}
+Microsoft-Windows-WMVENCOD                                                 {WINDOWS_VC1ENC_CHANNEL}
+Microsoft-Windows-USB-USBXHCI                                              {System, Microsoft-Windows-USB-USBXHCI-Analytic, Microsoft-Windows-USB-USBXHCI-Trustlet-Analytic}
+Microsoft-Windows-Power-Meter-Polling                                      {Microsoft-Windows-Power-Meter-Polling/Diagnostic, System}
+Microsoft-Windows-User-Diagnostic                                          {}
+Microsoft-Windows-Shell-Core                                               {Microsoft-Windows-Shell-Core/Diagnostic, Microsoft-Windows-Shell-Core/ActionCenter, Microsoft-Windows-Shell-Core/Operational, Microsoft-Windows-Shell-Core/AppDe…
+Microsoft-Windows-Kernel-WDI                                               {Microsoft-Windows-Kernel-WDI/Analytic, Microsoft-Windows-Kernel-WDI/Debug, Microsoft-Windows-Kernel-WDI/Operational}
+Microsoft-Windows-TabletPC-Platform-Manipulations                          {}
+Microsoft-Windows-Dism-Cli                                                 {Microsoft-Windows-Dism-Cli/Analytic}
+Microsoft-WindowsPhone-ConfigManager2                                      {Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider/Admin}
+Microsoft-Windows-TCPIP                                                    {Microsoft-Windows-TCPIP/Diagnostic, Microsoft-Windows-TCPIP/Operational}
+Microsoft-Windows-NDIS-PacketCapture                                       {Microsoft-Windows-NDIS-PacketCapture/Diagnostic}
+Microsoft-Windows-AllJoyn                                                  {Microsoft-Windows-AllJoyn/Operational, Microsoft-Windows-AllJoyn/Debug}
+Microsoft-Windows-WindowsToGo-StartupOptions                               {System}
+Microsoft-Windows-DriverFrameworks-UserMode                                {Microsoft-Windows-DriverFrameworks-UserMode/Operational, Microsoft-Windows-Kernel-Power/Diagnostic, System}
+Microsoft-Windows-Mobile-Broadband-Experience-Api                          {Microsoft-Windows-Mobile-Broadband-Experience-Api/Analytic}
+Microsoft-Windows-Direct3DShaderCache                                      {Microsoft-Windows-Direct3DShaderCache/Default}
+Microsoft-Windows-OOBE-FirstLogonAnim                                      {Microsoft-Windows-OOBE-FirstLogonAnim/Diagnostic}
+Microsoft-Windows-TZUtil                                                   {Microsoft-Windows-TZUtil/Operational}
+Microsoft-Windows-Security-EnterpriseData-FileRevocationManager            {Microsoft-Windows-Security-EnterpriseData-FileRevocationManager/Operational, Application}
+Microsoft-Windows-TabletPC-Platform-Input-Ninput                           {}
+Microsoft-Windows-WinQuic                                                  {}
+Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal                 {Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal/Analytic}
+Microsoft-Antimalware-Scan-Interface                                       {AMSI/Debug}
+Microsoft-Windows-MFH264Enc                                                {WINDOWS_MFH264Enc_CHANNEL}
+Microsoft-Windows-IPMIProvider                                             {HardwareEvents}
+Microsoft-Windows-ReadyBoostDriver                                         {Microsoft-Windows-ReadyBoostDriver/Analytic, Microsoft-Windows-ReadyBoostDriver/Operational}
+Microsoft-Windows-RasServer                                                {System}
+Microsoft-Windows-P2PIMSvc                                                 {System}
+Microsoft-Windows-COM-RundownInstrumentation                               {Microsoft-Windows-COM/RundownInstrumentation}
+Microsoft-Windows-Dwm-Api                                                  {Microsoft-Windows-Dwm-API/Diagnostic}
+Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task                  {Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task/Analytic, Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task/Operational}
+Microsoft-Windows-TerminalServices-ClientActiveXCore                       {Application, Microsoft-Windows-TerminalServices-RDPClient/Operational, Microsoft-Windows-TerminalServices-RDPClient/Analytic, Microsoft-Windows-TerminalServices…
+Microsoft-Windows-EDP-Audit-TCB                                            {Microsoft-Windows-EDP-Audit-TCB/Admin}
+Microsoft-Windows-Proximity-Common                                         {Microsoft-Windows-Proximity-Common/Informational, Microsoft-Windows-Proximity-Common/Performance, Microsoft-Windows-Proximity-Common/Diagnostic}
+Microsoft-Windows-TerminalServices-PnPDevices                              {Microsoft-Windows-TerminalServices-PnPDevices/Admin, Microsoft-Windows-TerminalServices-PnPDevices/Analytic, Microsoft-Windows-TerminalServices-PnPDevices/Opera…
+Microsoft-Windows-StartNameRes                                             {}
+Microsoft-Windows-RPC-Proxy-LBS                                            {Microsoft-Windows-RPC-Proxy/Debug}
+Microsoft-Windows-DxpTaskSyncProvider                                      {Microsoft-Windows-DxpTaskSyncProvider/Analytic}
+Microsoft-Windows-UserAccountControl                                       {Microsoft-Windows-UserAccountControl/Diagnostic}
+Microsoft-Windows-MCCS-NetworkHelper                                       {}
+Microsoft-Windows-RRAS                                                     {Microsoft-Windows-RRAS/Debug, Microsoft-Windows-RRAS/Operational}
+Microsoft-Windows-URLMon                                                   {Microsoft-Windows-WinURLMon/Analytic}
+Microsoft-Windows-Privacy-Auditing-OneSettingsClient                       {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-User Device Registration                                 {Microsoft-Windows-User Device Registration/Admin, Microsoft-Windows-User Device Registration/Debug}
+Microsoft-Windows-WlanConn                                                 {Microsoft-Windows-WLANConnectionFlow/Diagnostic}
+Microsoft-Windows-IIS-WMSVC                                                {Application}
+Microsoft-Windows-Kernel-Process                                           {Microsoft-Windows-Kernel-Process/Analytic}
+Microsoft-Windows-WebdavClient-LookupServiceTrigger                        {}
+Microsoft-Windows-WPD-MTPClassDriver                                       {Microsoft-Windows-WPD-MTPClassDriver/Operational, Microsoft-Windows-WPD-MTPClassDriver/Analytic}
+Microsoft-Windows-Wininit                                                  {Microsoft-Windows-Wininit/Diagnostic, System}
+Microsoft-Windows-Shell-ZipFolder                                          {Microsoft-Windows-Shell-ZipFolder/Diagnostic}
+Schannel                                                                   {System}
+Microsoft-Windows-XAudio2                                                  {Microsoft-Windows-XAudio2/Debug, Microsoft-Windows-XAudio2/Performance}
+Microsoft-Windows-WMI                                                      {Application}
+Microsoft-Windows-NetworkProvider                                          {Microsoft-Windows-NetworkProvider/Operational}
+Microsoft-Windows-Networking-RealTimeCommunication                         {Microsoft-Windows-Networking-RealTimeCommunication/Tracing}
+Microsoft-Windows-AppModel-MessagingDataModel                              {}
+Microsoft-Windows-BitLocker-Driver-Performance                             {Microsoft-Windows-BitLocker-Driver-Performance/Operational}
+Microsoft-Windows-Backup                                                   {Application, Microsoft-Windows-Backup}
+Microsoft-Windows-MSPaint                                                  {Microsoft-Windows-MSPaint/Admin, Microsoft-Windows-MSPaint/Diagnostic, Microsoft-Windows-MSPaint/Debug}
+Microsoft-Windows-DeviceConfidence                                         {Microsoft-Windows-DeviceConfidence/Analytic}
+Microsoft-Windows-DNS-Client                                               {Microsoft-Windows-DNS-Client/Operational, System}
+Microsoft-Windows-Spellchecking-Host                                       {Microsoft-Windows-Spellchecking-Host/Analytic, Application}
+Microsoft-Windows-Privacy-Auditing-TailoredExperiences                     {Microsoft-Windows-Privacy-Auditing/Operational}
+Microsoft-Windows-RemoteApp and Desktop Connections                        {Application, Microsoft-Windows-RemoteApp and Desktop Connections/Admin, Microsoft-Windows-RemoteApp and Desktop Connections/Operational}
+Microsoft-Windows-IME-CustomerFeedbackManagerUI                            {Microsoft-Windows-IME-CustomerFeedbackManagerUI/Analytic}
+TPM                                                                        {System}
+Microsoft-Windows-DistributedCOM                                           {System}
+Microsoft-Windows-PCI                                                      {Microsoft-Windows-PCI/Diagnostic}
+Microsoft-Windows-Remotefs-Rdbss                                           {Microsoft-Windows-Remotefs-Rdbss/Diagnostic, Microsoft-Windows-Remotefs-Rdbss/Operational}
+Microsoft-Windows-EnergyEfficiencyWizard                                   {Microsoft-Windows-PowerEfficiencyDiagnostics/Diagnostic}
+Microsoft-Windows-DiagCpl                                                  {Microsoft-Windows-DiagCpl/Debug}
+Microsoft-Windows-OLEACC                                                   {Microsoft-Windows-OLEACC/Diagnostic, Microsoft-Windows-OLEACC/Debug}
+Microsoft-Windows-AsynchronousCausality                                    {Microsoft-Windows-AsynchronousCausality/Causality}
+LsaSrv                                                                     {System, Microsoft-Windows-LSA/Performance, Microsoft-Windows-LSA/Operational, Microsoft-Windows-LSA/Diagnostic}
+Microsoft-Windows-DisplaySwitch                                            {Microsoft-Windows-DisplaySwitch/Diagnostic}
+Microsoft-Windows-ApplicationExperience-LookupServiceTrigger               {}
+Microsoft-Windows-WABSyncProvider                                          {Microsoft-Windows-WABSyncProvider/Analytic}
+Microsoft-Windows-MsiServer                                                {}
+Microsoft-Windows-ApplicationExperience-SwitchBack                         {}
+Microsoft-Windows-Diagnosis-AdvancedTaskManager                            {Microsoft-Windows-Diagnosis-AdvancedTaskManager/Analytic}
+Microsoft-Windows-Hyper-V-VmbusVdev                                        {Microsoft-Windows-Hyper-V-Worker-Admin, Microsoft-Windows-Hyper-V-Worker-Analytic}
+Microsoft-Windows-Hyper-V-Compute                                          {Microsoft-Windows-Hyper-V-Compute-Admin, Microsoft-Windows-Hyper-V-Compute-Operational, Microsoft-Windows-Hyper-V-Compute-Analytic}
+Microsoft-Windows-Kernel-AppCompat                                         {Microsoft-Windows-Kernel-AppCompat/General, Microsoft-Windows-Kernel-AppCompat/Performance}
+Microsoft-Windows-Kernel-Boot                                              {System, Microsoft-Windows-Kernel-Boot/Analytic, Microsoft-Windows-Kernel-Boot/Operational}
+Microsoft-Windows-Dhcp-Client                                              {Microsoft-Windows-Dhcp-Client/Operational, Microsoft-Windows-Dhcp-Client/Admin, System}
+Microsoft-Windows-MSDTC Client 2                                           {Application}
+Microsoft-Windows-Crypto-RSAEnh                                            {Microsoft-Windows-Crypto-RSAEnh/Analytic}
+Microsoft-Windows-Hyper-V-Netvsc                                           {System, Microsoft-Windows-Hyper-V-NETVSC/Diagnostic}
+Microsoft-Windows-IME-JPSetting                                            {Microsoft-Windows-IME-JPSetting/Analytic}
+Microsoft-Windows-WMI-Activity                                             {Microsoft-Windows-WMI-Activity/Trace, Microsoft-Windows-WMI-Activity/Operational, Microsoft-Windows-WMI-Activity/Debug}
+Microsoft-Windows-DataIntegrityScan                                        {Microsoft-Windows-DataIntegrityScan/Admin, Microsoft-Windows-DataIntegrityScan/CrashRecovery}
+Microsoft-Windows-Perflib                                                  {Application}
+Microsoft-Windows-HomeGroup-ControlPanel                                   {Microsoft-Windows-HomeGroup Control Panel/Operational, Microsoft-Windows-HomeGroup Control Panel Performance/Diagnostic}
+Microsoft-Windows-Speech-UserExperience                                    {Microsoft-Windows-Speech-UserExperience/Diagnostic}
+Microsoft-Windows-wmbclass                                                 {Microsoft-Windows-wmbclass/Trace, Microsoft-Windows-wmbclass/Analytic}
+Microsoft-Windows-TerminalServices-RdpSoundDriver                          {Microsoft-Windows-TerminalServices-RdpSoundDriver/Playback, Microsoft-Windows-TerminalServices-RdpSoundDriver/Capture}
+Microsoft-Windows-Ncasvc                                                   {Microsoft-Windows-Ncasvc/Operational}
+Microsoft-Windows-System-Restore                                           {Application}
+Microsoft-Windows-SmartCard-TPM-VCard-Module                               {Microsoft-Windows-SmartCard-TPM-VCard-Module/Admin, Microsoft-Windows-SmartCard-TPM-VCard-Module/Operational}
+Microsoft-Windows-Base-Filtering-Engine-Connections                        {Microsoft-Windows-Base-Filtering-Engine-Connections/Operational}
+Microsoft-Windows-Windows Defender                                         {Microsoft-Windows-Windows Defender/Operational, Microsoft-Windows-Windows Defender/WHC}
+Microsoft-Windows-NdisImPlatformEventProvider                              {Microsoft-Windows-NdisImPlatform/Operational}
+Microsoft-Windows-Shell-OpenWith                                           {Microsoft-Windows-Shell-OpenWith/Diagnostic}
+Microsoft-Windows-WindowsSystemAssessmentTool                              {Microsoft-Windows-WindowsSystemAssessmentTool/Operational, Microsoft-Windows-WindowsSystemAssessmentTool/Tracing, Application}
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS                          {Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Admin, Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational, Microsoft-Windows-RemoteDesktopServices-…
+Microsoft-Windows-Hyper-V-StorageVSP                                       {Microsoft-Windows-Hyper-V-StorageVSP-Admin, Microsoft-Windows-Hyper-V-StorageVSP-Analytic}
+Microsoft-Windows-ApplicabilityEngine                                      {Microsoft-Windows-ApplicabilityEngine/Operational, Microsoft-Windows-ApplicabilityEngine/Analytic}
+Microsoft-Antimalware-NIS                                                  {}
+Microsoft-Windows-Mobile-Broadband-Experience-SmsApi                       {SMSApi, Microsoft-Windows-Mobile-Broadband-Experience-SmsApi/Analytic}
+Microsoft-Windows-PersistentMemory-PmemDisk                                {System, Microsoft-Windows-PersistentMemory-PmemDisk/Analytic, Microsoft-Windows-PersistentMemory-PmemDisk/Diagnostic, Microsoft-Windows-PersistentMemory-PmemDis…
+Microsoft-Windows-Kernel-Processor-Power                                   {System, Microsoft-Windows-Kernel-Processor-Power/Diagnostic}
+Microsoft-Windows-OOBE-Machine-Plugins-Wireless                            {Microsoft-Windows-OOBE-Machine-Plugins-Wireless/Diagnostic}
+Microsoft-Windows-Complus                                                  {Application}
+Microsoft-Windows-ActionQueue                                              {Microsoft-Windows-ActionQueue/Analytic, Setup}
+Microsoft-Windows-WMP-Setup_WM                                             {WMPSetup}
+Microsoft-Windows-Directory-Services-SAM                                   {System}
+Microsoft-Windows-AppSruProv                                               {Microsoft-Windows-AppSruProv}
+Microsoft-Windows-Host-Network-Service                                     {Microsoft-Windows-Host-Network-Service-Admin, Microsoft-Windows-Host-Network-Service-Operational, Microsoft-Windows-Host-Network-Service-Analytic}
+Microsoft-Windows-WFP                                                      {Microsoft-Windows-IKE/Operational, Microsoft-Windows-WFP/Operational, Microsoft-Windows-WFP/Analytic, Microsoft-Windows-IKEDBG/Debug…}
+Microsoft-Windows-Kernel-ShimEngine                                        {Microsoft-Windows-Kernel-ShimEngine/Debug, Microsoft-Windows-Kernel-ShimEngine/Operational, Microsoft-Windows-Kernel-ShimEngine/Diagnostic}
+Microsoft-Windows-NWiFi                                                    {Microsoft-Windows-NWiFi/Diagnostic}
+Microsoft-Windows-UserDataAccess-Poom                                      {}
+Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter                     {Microsoft-Windows-Hyper-V-Guest-Drivers/Debug, Microsoft-Windows-Hyper-V-Guest-Drivers/Admin}
+Microsoft-Windows-CoreSystem-InitMachineConfig                             {System}
+Microsoft-Windows-ClearTypeTextTuner                                       {Microsoft-Windows-ClearTypeTextTuner/Diagnostic}
+Microsoft-Antimalware-Engine                                               {}
+Microsoft-Windows-DeviceSync                                               {Microsoft-Windows-DeviceSync/Operational, Microsoft-Windows-DeviceSync/Analytic}
+Microsoft-Windows-SmartCard-Audit                                          {Microsoft-Windows-SmartCard-Audit/Authentication}
+Microsoft-Windows-LDAP-Client                                              {Microsoft-Windows-LDAP-Client/Debug}
+Microsoft-Windows-WUSA                                                     {Setup, Microsoft-Windows-WUSA/Debug}
+Microsoft-Windows-Winsock-SQM                                              {}
+Microsoft-Windows-Shell-AppWizCpl                                          {Microsoft-Windows-Shell-AppWizCpl/Diagnostic}
+Microsoft-Windows-RestartManager                                           {Application, Microsoft-Windows-RestartManager/Operational}
+Microsoft-Windows-Security-Audit-Configuration-Client                      {Microsoft-Windows-Security-Audit-Configuration-Client/Operational, Microsoft-Windows-Security-Audit-Configuration-Client/Diagnostic}
+Microsoft-Windows-VolumeControl                                            {Microsoft-Windows-VolumeControl/Performance}
+Microsoft-Windows-Time-Service                                             {System, Microsoft-Windows-Time-Service/Operational}
+Microsoft-Windows-TimeBroker                                               {TimeBroker}
+Microsoft-Windows-Services-Svchost                                         {Microsoft-Windows-Services-Svchost/Diagnostic}
+Microsoft-Windows-Bluetooth-Policy                                         {Microsoft-Windows-Bluetooth-Policy/Operational}
+Microsoft-Windows-LiveId                                                   {Microsoft-Windows-LiveId/Analytic, Microsoft-Windows-LiveId/Operational}
+Microsoft-Windows-TaskbarCPL                                               {Microsoft-Windows-TaskbarCPL/Diagnostic}
+Microsoft-Windows-ReFS-v1                                                  {System}
+Microsoft-Windows-Shsvcs                                                   {Microsoft-Windows-Shsvcs/Diagnostic}
+Microsoft-Windows-Diagnosis-WDC                                            {Microsoft-Windows-Diagnosis-WDC/Analytic}
+Microsoft-Windows-IIS-W3SVC                                                {System}
+Microsoft-Windows-MCCS-AccountsHost                                        {}
+Microsoft-Windows-PDH                                                      {Application}
+Microsoft-Windows-Bluetooth-MTPEnum                                        {Microsoft-Windows-Bluetooth-MTPEnum/Operational}
+Microsoft-Windows-Diagnostics-PerfTrack                                    {Microsoft-Windows-Diagnostics-PerfTrack/Diagnostic}
+Microsoft-Windows-ShareMedia-ControlPanel                                  {Microsoft-Windows-ShareMedia-ControlPanel/Diagnostic}
+Microsoft-Windows-WindowsBackup                                            {Microsoft-Windows-WindowsBackup/ActionCenter}
+Microsoft-Windows-Registry-SQM-Provider                                    {}
+Microsoft-Windows-ErrorReportingConsole                                    {}
+Microsoft-Windows-VAN                                                      {Microsoft-Windows-VAN/Diagnostic}
+Microsoft-Windows-ParentalControls                                         {Microsoft-Windows-ParentalControls/Operational}
+Microsoft-Windows-Security-IdentityStore                                   {Microsoft-Windows-Security-IdentityStore/Performance}
+Microsoft-Windows-Services                                                 {Microsoft-Windows-Services/Diagnostic}
+
